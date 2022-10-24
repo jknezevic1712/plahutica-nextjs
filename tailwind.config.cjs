@@ -11,10 +11,14 @@ module.exports = {
         transparent: "transparent",
         current: "currentColor",
         "cstm-bg": "#faf7ff",
-        "cstm-text":  "#3c3c3c",
-        "cstm-highlight": "#9acd32"
+        "cstm-text": "#3c3c3c",
+        "cstm-highlight": "#9acd32",
       },
-    }
+      fontFamily: {
+        "dancing-script": "Dancing Script, cursive",
+        "plus-jakarta-sans": "Plus Jakarta Sans, sans-serif",
+      },
+    },
   },
   plugins: [],
 };
