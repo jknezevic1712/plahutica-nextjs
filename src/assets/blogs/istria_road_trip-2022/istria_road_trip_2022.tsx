@@ -386,7 +386,7 @@ const IstriaRoadTrip2022 = () => (
           </div>
         </div>
 
-        <div className="two_line flex h-full w-full flex-col items-center justify-center">
+        <div className="flex h-full w-full flex-col items-center justify-center">
           <span>
             <h3 className="w-full py-12 text-start font-plus-jakarta-sans text-lg italic tracking-wider xl:text-xl 3xl:text-2xl">
               Galebove stijene
@@ -643,7 +643,7 @@ const IstriaRoadTrip2022 = () => (
           </div>
         </div>
 
-        <div className="two_line flex h-full w-full flex-col items-center justify-center">
+        <div className="flex h-full w-full flex-col items-center justify-center">
           <span className="w-full">
             <h3 className="w-full py-12 text-start font-plus-jakarta-sans text-lg italic tracking-wider xl:text-xl 3xl:text-2xl">
               Spomenik Jamesu Joyce-u
@@ -787,7 +787,7 @@ const IstriaRoadTrip2022 = () => (
               </div>
             </div>
 
-            <div className="alternate flex h-full w-full flex-col items-center justify-center pt-8 xl:flex-row-reverse xl:justify-between">
+            <div className="flex h-full w-full flex-col items-center justify-center pt-8 xl:flex-row-reverse xl:justify-between">
               <span className="w-full xl:w-1/2">
                 <h5 className="w-full py-6 text-start font-plus-jakarta-sans text-lg italic tracking-wider xl:text-xl 3xl:text-2xl">
                   Vidikovac Fortica
@@ -861,7 +861,7 @@ const IstriaRoadTrip2022 = () => (
               </div>
             </div>
 
-            <div className="two_line flex h-full w-full flex-col items-center justify-center pt-8">
+            <div className="flex h-full w-full flex-col items-center justify-center pt-8">
               <span>
                 <h5 className="w-full py-6 text-start font-plus-jakarta-sans text-lg italic tracking-wider xl:text-xl 3xl:text-2xl">
                   Narodni muzej Labin
