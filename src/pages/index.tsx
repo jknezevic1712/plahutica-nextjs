@@ -13,7 +13,6 @@ import { carouselImagesArray } from "assets/blogs/homepageImages";
 const Home: NextPage = () => {
   const context = useAppContext();
   const { activeBlogIdCtx } = context!;
-  console.log("context", context);
 
   return (
     <>

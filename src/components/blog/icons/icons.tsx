@@ -15,52 +15,56 @@ import QuestionMarkImg from "assets/images/blogIcons/question.png";
 const getIconImg = (iconType: string) => {
   switch (iconType) {
     case IconTypes.Car:
-      return CarImg;
+      return CarImg.src;
     case IconTypes.Bed:
-      return BedImg;
+      return BedImg.src;
     case IconTypes.Restaurant:
-      return RestaurantImg;
+      return RestaurantImg.src;
     case IconTypes.Beach:
-      return BeachImg;
+      return BeachImg.src;
     case IconTypes.Camera:
-      return CameraImg;
+      return CameraImg.src;
     case IconTypes.Excursion:
-      return ExcursionsImg;
+      return ExcursionsImg.src;
     case IconTypes.Money:
-      return MoneyImg;
+      return MoneyImg.src;
     default:
-      return QuestionMarkImg;
+      return QuestionMarkImg.src;
   }
 };
 
-const AuxiliaryIcon: React.FC<BlogIconProps> = ({
-  title,
-  excursionIcon,
-  iconType,
-}) => {
+const AuxiliaryIcon = ({ title, excursionIcon, iconType }: BlogIconProps) => {
   if (excursionIcon) {
     return (
-      <h4 className="blog_icon excursion_icon">
-        <Image
-          src={getIconImg(iconType)}
-          alt={`${iconType} icon`}
-          height={"auto"}
-          width={"auto"}
-        />
-        <span>{title}</span>
+      <h4 className="flex w-full items-center justify-center py-12">
+        <div className="icon-container">
+          <Image
+            className="icon rounded-lg"
+            src={getIconImg(iconType)}
+            alt={`${iconType} icon`}
+            layout="fill"
+          />
+        </div>
+        <span className="ml-6 flex min-h-[50px] items-center justify-center font-plus-jakarta-sans text-2xl italic text-lime-400 lg:text-3xl">
+          {title}
+        </span>
       </h4>
     );
   }
 
   return (
-    <h2 className="blog_icon">
-      <Image
-        src={getIconImg(iconType)}
-        alt={`${iconType} icon`}
-        height={"auto"}
-        width={"auto"}
-      />
-      <span>{title}</span>
+    <h2 className="flex w-fit items-center justify-center pb-12">
+      <div className="icon-container">
+        <Image
+          className="icon rounded-lg"
+          src={getIconImg(iconType)}
+          alt={`${iconType} icon`}
+          layout="fill"
+        />
+      </div>
+      <span className="flex min-h-[50px] items-center justify-center pl-6 font-plus-jakarta-sans text-2xl italic text-lime-400 lg:text-3xl">
+        {title}
+      </span>
     </h2>
   );
 };

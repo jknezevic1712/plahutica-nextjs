@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -14,52 +14,13 @@ import { slideshowImagesArray } from "assets/blogs/homepageImages";
 
 const HomepageCarousel = () => {
   const context = useAppContext();
-  const { activeBlogIdCtx, setActiveBlogIdCtx } = context!;
+  const { setActiveBlogIdCtx } = context!;
 
-  console.log("ID => ", activeBlogIdCtx);
+  useEffect(() => {
+    setActiveBlogIdCtx(0);
+  }, []);
 
   return (
-    // <>
-    //   <Swiper
-    //     slidesPerView={2}
-    //     spaceBetween={30}
-    //     slidesPerGroup={1}
-    //     navigation={true}
-    //     className="mySwiper mt-8 flex h-1/2 w-3/4 flex-col items-center justify-between"
-    //     slideClass="text-center text-lg bg-neutral-50 rounded-2xl flex justify-center items-center"
-    //     effect={"coverflow"}
-    //     pagination={false}
-    //     centeredSlides={true}
-    //     coverflowEffect={{
-    //       rotate: 50,
-    //       stretch: 0,
-    //       depth: 100,
-    //       modifier: 1,
-    //       slideShadows: true,
-    //     }}
-    //     modules={[EffectCoverflow, Navigation, Pagination]}
-    //     onSlideChange={(props: any) => {
-    // const swiperActiveIndex: number = props.activeIndex;
-    // setActiveBlogIdCtx(swiperActiveIndex);
-    //     }}
-    //   >
-    //     {slideshowImagesArray.map((url, blogId) => {
-    //       console.log("BLOG ID => ", blogId, ", URL => ", url);
-    //       return (
-    //         <SwiperSlide key={blogId}>
-    //           <div className="h-full w-full before:absolute before:top-0 before:left-0 before:h-full before:w-full before:rounded-2xl before:border-2 before:border-neutral-700 before:border-opacity-30 before:transition-all lg:hover:before:border-opacity-100 lg:hover:before:bg-neutral-700 lg:hover:before:bg-opacity-20">
-    //             <Link href={`/blog/${blogId}`}>
-    //               <span className="flex h-full min-h-[200px] w-full items-center justify-center rounded-2xl object-cover">
-    //                 <Image src={url.src} alt="" layout="fill" />
-    //               </span>
-    //             </Link>
-    //           </div>
-    //         </SwiperSlide>
-    //       );
-    //     })}
-    //   </Swiper>
-    // </>
-
     <div className="flex h-1/2 w-full flex-col items-center justify-center">
       <Swiper
         slidesPerView={2}

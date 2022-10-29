@@ -12,7 +12,7 @@ const Nav: React.FC<NavProps> = ({ homepageView }) => {
     >
       <div className="flex w-full items-center justify-center md:max-w-[90%]">
         <Link href={"/"}>
-          <h1 className="flex w-fit cursor-pointer items-center justify-center font-dancing-script text-3xl uppercase tracking-wider text-lime-400 md:text-4xl 3xl:text-5xl">
+          <h1 className="flex w-fit cursor-pointer items-center justify-center font-dancing-script text-3xl font-extrabold uppercase italic tracking-wider text-lime-400 md:text-4xl 3xl:text-5xl">
             Plahutica
           </h1>
         </Link>
