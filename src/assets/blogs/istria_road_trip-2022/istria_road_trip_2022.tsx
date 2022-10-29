@@ -432,6 +432,7 @@ const IstriaRoadTrip2022 = () => (
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.GaleboveStijene2.src}
                 layout="fill"
+                alt="Galebove stijene"
               />
             </div>
           </div>
