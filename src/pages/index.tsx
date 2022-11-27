@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Link from "next/link";
 
 import { useAppContext } from "context/state";
 
@@ -17,8 +16,28 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Plahutica</title>
-        <meta name="description" content="Plahutica" />
+        <title>Plahutica blog</title>
+        <meta name="description" content="Plahutica blog stranica" />
+        <meta name="author" content="Jakov Knežević & Ema Belošević" />
+        <link rel="canonical" href="https://plahutica.vercel.app/" />
+        <meta name="robots" content="index, follow" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="keywords" content="Zagorje, Istra, Pula, Rim" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Plahutica blog" />
+        <meta property="og:description" content="Plahutica blog stranica" />
+        <meta
+          property="og:image"
+          content="assets/blogs/istria_road_trip-2022/images/radovica-beach-2.jpg"
+        />
+        <meta property="og:url" content="https://plahutica.vercel.app/" />
+        <meta property="og:site_name" content="Plahutica blog" />
+        <meta name="twitter:title" content="Plahutica blog" />
+        <meta name="twitter:description" content="Plahutica blog stranica" />
+        <meta
+          name="twitter:image"
+          content="assets/blogs/istria_road_trip-2022/images/radovica-beach-2.jpg"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
