@@ -20,6 +20,10 @@ const Home: NextPage = () => {
         <meta name="description" content="Plahutica blog stranica" />
         <meta name="author" content="Jakov Knežević & Ema Belošević" />
         <link rel="canonical" href="https://plahutica.vercel.app/" />
+        <meta
+          name="google-site-verification"
+          content="_NncHz24yni_gPGd22214uhUbIg-8jdRGHTAaPEMECc"
+        />
         <meta name="robots" content="index, follow" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="keywords" content="Zagorje, Istra, Pula, Rim" />
