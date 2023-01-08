@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://plahutica.vercel.app/sitemap.xml
+
+google-site-verification=61QuFnd4SRZroMOHoTuH1XabfKpW4WtKpF9gvENsO2U
