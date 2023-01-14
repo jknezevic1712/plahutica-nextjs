@@ -5,6 +5,7 @@ import RandomStreet from "assets/blogs/rim-2022/images/random-street.jpg";
 import RandomStreet2 from "assets/blogs/rim-2022/images/random-street-2.jpg";
 import RandomStreet3 from "assets/blogs/rim-2022/images/random-street-3.jpg";
 import RandomStreet4 from "assets/blogs/rim-2022/images/random-street-4.jpg";
+import RandomStreet5 from "assets/blogs/rim-2022/images/random-street-5.jpg";
 import PiazzaDiSpagna from "assets/blogs/rim-2022/images/piazza-di-spagna.jpg";
 import PiazzaDiSpagna2 from "assets/blogs/rim-2022/images/piazza-di-spagna-2.jpg";
 import PiazzaDiSpagna3 from "assets/blogs/rim-2022/images/piazza-di-spagna-3.jpg";
@@ -19,7 +20,7 @@ import Pompi from "assets/blogs/rim-2022/images/pompi.jpg";
 import Pompi2 from "assets/blogs/rim-2022/images/pompi-2.jpg";
 import FontanaDiTrevi from "assets/blogs/rim-2022/images/fontana-di-trevi.jpg";
 import FontanaDiTrevi2 from "assets/blogs/rim-2022/images/fontana-di-trevi-2.jpg";
-import FontanaDiTrevi3 from "assets/blogs/rim-2022/images/fontana-di-trevi-4.jpg";
+import FontanaDiTrevi3 from "assets/blogs/rim-2022/images/fontana-di-trevi-3.jpg";
 import Panteon from "assets/blogs/rim-2022/images/panteon.jpg";
 import PiazzaNavona from "assets/blogs/rim-2022/images/piazza-navona.jpg";
 import PiazzaNavona2 from "assets/blogs/rim-2022/images/piazza-navona-2.jpg";
@@ -62,6 +63,7 @@ const images = {
   RandomStreet2,
   RandomStreet3,
   RandomStreet4,
+  RandomStreet5,
   PiazzaDiSpagna,
   PiazzaDiSpagna2,
   PiazzaDiSpagna3,

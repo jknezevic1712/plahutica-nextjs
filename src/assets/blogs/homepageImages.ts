@@ -11,5 +11,5 @@ export const carouselImagesArray = [
 export const slideshowImagesArray = [
   IstriaRoadTrip2022.RtKamenjak2,
   Zagorje2022.VelikiTabor4,
-  Rim2022Images.RandomStreet6,
+  Rim2022Images.RandomStreet5,
 ];

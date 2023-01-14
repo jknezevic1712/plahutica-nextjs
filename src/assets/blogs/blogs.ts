@@ -19,6 +19,6 @@ export const BlogsOverviews = [
 
 export const BlogBanners = [
   IstriaRoadTrip2022Images.Colosseum4,
-  Zagorje2022Images.Kumrovec7,
+  Zagorje2022Images.Kumrovec5,
   Rim2022Images.Panteon,
 ];

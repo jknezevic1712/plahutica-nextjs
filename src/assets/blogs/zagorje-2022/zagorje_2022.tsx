@@ -268,7 +268,7 @@ export const Zagorje2022 = () => (
           <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
             <Image
               className="image rounded-lg"
-              src={images.GresnaGorica5}
+              src={images.GresnaGorica3}
               alt="Grešna Gorica"
               layout="fill"
             />
@@ -288,7 +288,7 @@ export const Zagorje2022 = () => (
           <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
             <Image
               className="image rounded-lg"
-              src={images.GresnaGorica9}
+              src={images.GresnaGorica7}
               alt="Grešna Gorica"
               layout="fill"
             />
@@ -313,7 +313,7 @@ export const Zagorje2022 = () => (
             <div className="image-container py-12 xl:py-0">
               <Image
                 className="image image-two_line-size-xl rounded-lg"
-                src={images.GresnaGorica7}
+                src={images.GresnaGorica5}
                 alt="Grešna Gorica"
                 layout="fill"
               />
@@ -321,7 +321,7 @@ export const Zagorje2022 = () => (
             <div className="image-container">
               <Image
                 className="image image-two_line-size-xl rounded-lg"
-                src={images.GresnaGorica6}
+                src={images.GresnaGorica4}
                 alt="Grešna Gorica"
                 layout="fill"
               />
@@ -329,7 +329,7 @@ export const Zagorje2022 = () => (
             <div className="image-container py-12 xl:py-0">
               <Image
                 className="image image-two_line-size-xl rounded-lg"
-                src={images.GresnaGorica8}
+                src={images.GresnaGorica6}
                 alt="Grešna Gorica"
                 layout="fill"
               />
@@ -369,7 +369,7 @@ export const Zagorje2022 = () => (
             <div className="image-container image-container-w-half">
               <Image
                 className="image image-two_line_landscape-size-xl rounded-lg"
-                src={images.Kumrovec4}
+                src={images.Kumrovec3}
                 alt="Kumrovec"
                 layout="fill"
               />
@@ -377,7 +377,7 @@ export const Zagorje2022 = () => (
             <div className="image-container image-container-w-half pb-12 pt-8 xl:py-0">
               <Image
                 className="image image-two_line_landscape-size-xl rounded-lg"
-                src={images.Kumrovec5}
+                src={images.Kumrovec4}
                 alt="Kumrovec"
                 layout="fill"
               />
