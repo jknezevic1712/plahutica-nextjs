@@ -7,7 +7,7 @@ export const Zagorje2022_Overview: BlogOverview = {
   description: "Blog o izletu kroz Zagorje",
 };
 
-const Zagorje2022 = () => (
+export const Zagorje2022 = () => (
   <div className="h-full w-[85%]">
     <div className="h-fit w-full py-10">
       <div className="flex h-full w-full flex-col items-center text-justify leading-6">
@@ -411,5 +411,3 @@ const Zagorje2022 = () => (
     </div>
   </div>
 );
-
-export default Zagorje2022;

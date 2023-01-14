@@ -23,8 +23,10 @@ const HomepageCarousel = () => {
   return (
     <div className="flex h-1/2 w-full flex-col items-center justify-center">
       <Swiper
-        slidesPerView={2}
-        spaceBetween={20}
+        slidesPerView={"auto"}
+        // loop={true}
+        // loopedSlides={3}
+        spaceBetween={40}
         slidesPerGroup={1}
         navigation={true}
         className="mySwiper"
@@ -48,7 +50,7 @@ const HomepageCarousel = () => {
           return (
             <SwiperSlide
               key={blogId}
-              className="max-w-[8rem] md:max-w-[18rem] xl:max-w-[20rem] 2xl:max-w-[25rem] 3xl:max-w-[30rem]"
+              className="max-w-[14rem] md:max-w-[18rem] xl:max-w-[20rem] 2xl:max-w-[25rem] 3xl:max-w-[30rem]"
             >
               <Link href={`/blog/${blogId}`}>
                 <div className="image-container">

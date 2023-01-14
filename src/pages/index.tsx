@@ -30,18 +30,12 @@ const Home: NextPage = () => {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Plahutica blog" />
         <meta property="og:description" content="Plahutica blog stranica" />
-        <meta
-          property="og:image"
-          content="assets/blogs/istria_road_trip-2022/images/radovica-beach-2.jpg"
-        />
+        <meta property="og:image" content="/background.jpg" />
         <meta property="og:url" content="https://plahutica.vercel.app/" />
         <meta property="og:site_name" content="Plahutica blog" />
         <meta name="twitter:title" content="Plahutica blog" />
         <meta name="twitter:description" content="Plahutica blog stranica" />
-        <meta
-          name="twitter:image"
-          content="assets/blogs/istria_road_trip-2022/images/radovica-beach-2.jpg"
-        />
+        <meta name="twitter:image" content="/background.jpg" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

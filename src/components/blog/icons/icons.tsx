@@ -62,7 +62,7 @@ const AuxiliaryIcon = ({ title, excursionIcon, iconType }: BlogIconProps) => {
           layout="fill"
         />
       </div>
-      <span className="flex min-h-[50px] items-center justify-center pl-6 font-plus-jakarta-sans text-2xl italic text-lime-400 lg:text-3xl">
+      <span className="flex min-h-[50px] items-center justify-center pl-6 font-plus-jakarta-sans text-2xl italic text-lime-400 md:text-3xl 2xl:text-4xl">
         {title}
       </span>
     </h2>

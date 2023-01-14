@@ -8,6 +8,7 @@ const Content: React.FC = () => {
   const { activeBlogIdCtx } = context!;
 
   const showBlogContent = () => {
+    console.log("ID => ", activeBlogIdCtx);
     let BlogContent = () => (
       <div>
         <h2>Error Page!</h2>
@@ -19,6 +20,8 @@ const Content: React.FC = () => {
       if (index === activeBlogIdCtx) {
         BlogContent = value;
         blogContentKey = index;
+
+        console.log("INDEX => ", index);
       }
     });
 

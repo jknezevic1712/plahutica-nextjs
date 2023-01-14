@@ -10,7 +10,7 @@ export const IstriaRoadTrip2022_Overview: BlogOverview = {
   description: "Slikoviti blog koji opisuje putovanje kroz Istru",
 };
 
-const IstriaRoadTrip2022 = () => (
+export const IstriaRoadTrip2022 = () => (
   <div className="h-full w-[85%]">
     <div className="h-fit w-full py-10">
       <div className="flex h-full w-full flex-col items-center text-justify leading-6">
@@ -1469,5 +1469,3 @@ const IstriaRoadTrip2022 = () => (
     </div>
   </div>
 );
-
-export default IstriaRoadTrip2022;
