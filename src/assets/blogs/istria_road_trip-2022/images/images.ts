@@ -7,14 +7,12 @@ import CiklonskaPlaza from "assets/blogs/istria_road_trip-2022/images/ciklonska-
 import Colosseum from "assets/blogs/istria_road_trip-2022/images/colosseum.jpg";
 import Colosseum2 from "assets/blogs/istria_road_trip-2022/images/colosseum-2.jpg";
 import Colosseum3 from "assets/blogs/istria_road_trip-2022/images/colosseum-3.jpg";
-import Colosseum4 from "assets/blogs/istria_road_trip-2022/images/colosseum-4.jpg";
 import CrkvaRodenjaBlazeneDjeviceMarije from "assets/blogs/istria_road_trip-2022/images/crkva-rodenja-blazene-djevice-marije.jpg";
 import DvojnaVrata from "assets/blogs/istria_road_trip-2022/images/dvojna-vrata.jpg";
 import GaleboveStijene from "assets/blogs/istria_road_trip-2022/images/galebove-stijene.jpg";
 import GaleboveStijene2 from "assets/blogs/istria_road_trip-2022/images/galebove-stijene-2.jpg";
 import GortanovaUvala from "assets/blogs/istria_road_trip-2022/images/gortanova-uvala.jpg";
 import GortanovaUvala2 from "assets/blogs/istria_road_trip-2022/images/gortanova-uvala-2.jpg";
-import HawaiianBeach from "assets/blogs/istria_road_trip-2022/images/hawaiian-beach.jpg";
 import JamesJoyce from "assets/blogs/istria_road_trip-2022/images/james-joyce.jpg";
 import JamesJoyce2 from "assets/blogs/istria_road_trip-2022/images/james-joyce-2.jpg";
 import Kayaks from "assets/blogs/istria_road_trip-2022/images/kayaks.jpg";
@@ -23,7 +21,6 @@ import Kayaks3 from "assets/blogs/istria_road_trip-2022/images/kayaks-3.jpg";
 import Kayaks4 from "assets/blogs/istria_road_trip-2022/images/kayaks-4.jpg";
 import Labin from "assets/blogs/istria_road_trip-2022/images/labin.jpg";
 import Labin2 from "assets/blogs/istria_road_trip-2022/images/labin-2.jpg";
-import Labin3 from "assets/blogs/istria_road_trip-2022/images/labin-3.jpg";
 import LoungeBar from "assets/blogs/istria_road_trip-2022/images/lounge-bar.jpg";
 import LoungeBar2 from "assets/blogs/istria_road_trip-2022/images/lounge-bar-2.jpg";
 import NarodniMuzejLabin from "assets/blogs/istria_road_trip-2022/images/narodni-muzej-labin.jpg";
@@ -41,11 +38,6 @@ import RadovicaBeach2 from "assets/blogs/istria_road_trip-2022/images/radovica-b
 import RadovicaBeach3 from "assets/blogs/istria_road_trip-2022/images/radovica-beach-3.jpg";
 import RandomStreet from "assets/blogs/istria_road_trip-2022/images/random-street.jpg";
 import RandomStreet2 from "assets/blogs/istria_road_trip-2022/images/random-street-2.jpg";
-import RandomStreet3 from "assets/blogs/istria_road_trip-2022/images/random-street-3.jpg";
-import RandomStreet4 from "assets/blogs/istria_road_trip-2022/images/random-street-4.jpg";
-import RandomStreet5 from "assets/blogs/istria_road_trip-2022/images/random-street-5.jpg";
-import RandomStreet6 from "assets/blogs/istria_road_trip-2022/images/random-street-6.jpg";
-import RandomStreet7 from "assets/blogs/istria_road_trip-2022/images/random-street-7.jpg";
 import RestaurantFuria from "assets/blogs/istria_road_trip-2022/images/restaurant-furia.jpg";
 import RestaurantJupiter from "assets/blogs/istria_road_trip-2022/images/restaurant-jupiter.jpg";
 import RtKamenjak from "assets/blogs/istria_road_trip-2022/images/rt-kamenjak.jpg";
@@ -71,14 +63,12 @@ const images = {
   Colosseum,
   Colosseum2,
   Colosseum3,
-  Colosseum4,
   CrkvaRodenjaBlazeneDjeviceMarije,
   DvojnaVrata,
   GaleboveStijene,
   GaleboveStijene2,
   GortanovaUvala,
   GortanovaUvala2,
-  HawaiianBeach,
   JamesJoyce,
   JamesJoyce2,
   Kayaks,
@@ -87,7 +77,6 @@ const images = {
   Kayaks4,
   Labin,
   Labin2,
-  Labin3,
   LoungeBar,
   LoungeBar2,
   NarodniMuzejLabin,
@@ -105,11 +94,6 @@ const images = {
   RadovicaBeach3,
   RandomStreet,
   RandomStreet2,
-  RandomStreet3,
-  RandomStreet4,
-  RandomStreet5,
-  RandomStreet6,
-  RandomStreet7,
   RestaurantFuria,
   RestaurantJupiter,
   RtKamenjak,

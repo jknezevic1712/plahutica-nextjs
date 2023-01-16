@@ -497,7 +497,7 @@ export const IstriaRoadTrip2022 = () => (
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
                 className="image image-two_line-size-xl min-width-70 rounded-lg"
-                src={images.Colosseum3.src}
+                src={images.Colosseum2.src}
                 alt="Colosseum"
                 layout="fill"
               />
@@ -505,7 +505,7 @@ export const IstriaRoadTrip2022 = () => (
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
                 className="image image-two_line-size-xl rounded-lg"
-                src={images.Colosseum4.src}
+                src={images.Colosseum3.src}
                 alt="Colosseum 2"
                 layout="fill"
               />
@@ -573,7 +573,7 @@ export const IstriaRoadTrip2022 = () => (
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
                 className="image image-two_line-size-xl rounded-lg"
-                src={images.RandomStreet4.src}
+                src={images.RandomStreet.src}
                 alt="Beautiful street on Forum"
                 layout="fill"
               />
@@ -581,7 +581,7 @@ export const IstriaRoadTrip2022 = () => (
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
                 className="image image-two_line-size-xl rounded-lg"
-                src={images.RandomStreet5.src}
+                src={images.RandomStreet2.src}
                 alt="Beautiful street on Forum 2"
                 layout="fill"
               />
@@ -781,7 +781,7 @@ export const IstriaRoadTrip2022 = () => (
               <div className="image-container py-12 xl:max-w-[40%] 3xl:py-24">
                 <Image
                   className="image rounded-lg"
-                  src={images.Labin3.src}
+                  src={images.Labin2.src}
                   alt="Gallery Alvona & Negri palace"
                   layout="fill"
                 />
