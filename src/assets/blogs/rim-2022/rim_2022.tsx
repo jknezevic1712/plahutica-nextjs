@@ -7,7 +7,7 @@ import images from "./images/images";
 
 export const Rim2022_Overview: BlogOverview = {
   title: "Rim",
-  description: "Blog o izletu kroz Rim",
+  description: "Što sve vrijedi posjetiti u Rimu u 72 sata?",
 };
 
 export const Rim2022 = () => (

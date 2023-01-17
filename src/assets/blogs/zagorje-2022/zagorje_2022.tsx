@@ -4,7 +4,7 @@ import images from "./images/images";
 
 export const Zagorje2022_Overview: BlogOverview = {
   title: "Zagorje",
-  description: "Blog o izletu kroz Zagorje",
+  description: "Blog o jednodnevnom izletu u Zagorje",
 };
 
 export const Zagorje2022 = () => (
