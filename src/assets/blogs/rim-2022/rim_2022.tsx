@@ -699,7 +699,7 @@ export const Rim2022 = () => (
               Fontana di Trevi
             </h3>
             <p className="w-full break-words pb-4 text-justify indent-6 text-lg leading-8 md:text-xl md:leading-9 2xl:leading-9 3xl:text-2xl 3xl:leading-relaxed">
-              Jedan od neprepoznatljivijih simbola Rima, sagrađena u 18.
+              Jedan od najprepoznatljivijih simbola Rima, sagrađena u 18.
               stoljeću. Uvijek sam mislila da ljudi pretjeruju u opisima njene
               ljepote, ali zapravo sam bila u krivu. Fontana je uistinu
               prekrasna i veličanstvena te je puno veća nego što sam ju
