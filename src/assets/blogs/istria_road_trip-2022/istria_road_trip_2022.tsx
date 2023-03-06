@@ -1,4 +1,4 @@
-import Image from "next/image";
+import "lazysizes";
 
 import { IconTypes } from "../../../../types/enums/icons";
 
@@ -195,11 +195,10 @@ export const IstriaRoadTrip2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
-            <Image
-              className="image rounded-lg"
-              src={images.RestaurantFuria.src}
+            <img
+              className="image lazyload rounded-lg"
+              data-src={images.RestaurantFuria.src}
               alt="Restaurant Furia"
-              layout="fill"
             />
           </div>
         </div>
@@ -220,11 +219,10 @@ export const IstriaRoadTrip2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
-            <Image
-              className="image rounded-lg"
-              src={images.RestaurantJupiter.src}
+            <img
+              className="image lazyload rounded-lg"
+              data-src={images.RestaurantJupiter.src}
               alt="Restaurant Jupiter"
-              layout="fill"
             />
           </div>
         </div>
@@ -247,19 +245,17 @@ export const IstriaRoadTrip2022 = () => (
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.LoungeBar.src}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.LoungeBar.src}
                 alt="Lounge Bar"
-                layout="fill"
               />
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.LoungeBar2.src}
-                alt="Lounge Bar 2"
-                layout="fill"
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.LoungeBar2.src}
+                alt="Lounge Bar"
               />
             </div>
           </div>
@@ -291,11 +287,10 @@ export const IstriaRoadTrip2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
-            <Image
-              className="image rounded-lg"
-              src={images.SerenyIceCreamShop.src}
+            <img
+              className="image lazyload rounded-lg"
+              data-src={images.SerenyIceCreamShop.src}
               alt="Sereny Ice Cream Shop"
-              layout="fill"
             />
           </div>
         </div>
@@ -330,19 +325,17 @@ export const IstriaRoadTrip2022 = () => (
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.GortanovaUvala.src}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.GortanovaUvala.src}
                 alt="Gortanova Uvala"
-                layout="fill"
               />
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.GortanovaUvala2.src}
-                alt="Gortanova Uvala 2"
-                layout="fill"
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.GortanovaUvala2.src}
+                alt="Gortanova Uvala"
               />
             </div>
           </div>
@@ -377,11 +370,10 @@ export const IstriaRoadTrip2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
-            <Image
-              className="image rounded-lg"
-              src={images.CanyonVerudela.src}
+            <img
+              className="image lazyload rounded-lg"
+              data-src={images.CanyonVerudela.src}
               alt="Canyon Verudela"
-              layout="fill"
             />
           </div>
         </div>
@@ -420,19 +412,17 @@ export const IstriaRoadTrip2022 = () => (
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl min-width-70 rounded-lg"
-                src={images.GaleboveStijene.src}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.GaleboveStijene.src}
                 alt="Galebove Stijene"
-                layout="fill"
               />
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.GaleboveStijene2.src}
-                layout="fill"
-                alt="Galebove stijene"
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.GaleboveStijene2.src}
+                alt="Galebove Stijene"
               />
             </div>
           </div>
@@ -451,11 +441,10 @@ export const IstriaRoadTrip2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
-            <Image
-              className="image rounded-lg"
-              src={images.CiklonskaPlaza.src}
+            <img
+              className="image lazyload rounded-lg"
+              data-src={images.CiklonskaPlaza.src}
               alt="Ciklonska Plaza"
-              layout="fill"
             />
           </div>
         </div>
@@ -495,19 +484,17 @@ export const IstriaRoadTrip2022 = () => (
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl min-width-70 rounded-lg"
-                src={images.Colosseum2.src}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.Colosseum2.src}
                 alt="Colosseum"
-                layout="fill"
               />
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.Colosseum3.src}
-                alt="Colosseum 2"
-                layout="fill"
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.Colosseum3.src}
+                alt="Colosseum"
               />
             </div>
           </div>
@@ -524,11 +511,10 @@ export const IstriaRoadTrip2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
-            <Image
-              className="image rounded-lg"
-              src={images.ArchOfSergii.src}
+            <img
+              className="image lazyload rounded-lg"
+              data-src={images.ArchOfSergii.src}
               alt="Arch of Sergii"
-              layout="fill"
             />
           </div>
         </div>
@@ -546,11 +532,10 @@ export const IstriaRoadTrip2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
-            <Image
-              className="image rounded-lg"
-              src={images.TempleOfAugustus.src}
+            <img
+              className="image lazyload rounded-lg"
+              data-src={images.TempleOfAugustus.src}
               alt="Temple of Augustus"
-              layout="fill"
             />
           </div>
         </div>
@@ -571,19 +556,17 @@ export const IstriaRoadTrip2022 = () => (
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.RandomStreet.src}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.RandomStreet.src}
                 alt="Beautiful street on Forum"
-                layout="fill"
               />
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.RandomStreet2.src}
-                alt="Beautiful street on Forum 2"
-                layout="fill"
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.RandomStreet2.src}
+                alt="Beautiful street on Forum"
               />
             </div>
           </div>
@@ -601,11 +584,10 @@ export const IstriaRoadTrip2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
-            <Image
-              className="image rounded-lg"
-              src={images.DvojnaVrata.src}
+            <img
+              className="image lazyload rounded-lg"
+              data-src={images.DvojnaVrata.src}
               alt="Dvojna Vrata"
-              layout="fill"
             />
           </div>
         </div>
@@ -635,11 +617,10 @@ export const IstriaRoadTrip2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
-            <Image
-              className="image rounded-lg"
-              src={images.SvjetleciDivovi.src}
-              alt="Svjetleci Divovi"
-              layout="fill"
+            <img
+              className="image lazyload rounded-lg"
+              data-src={images.SvjetleciDivovi.src}
+              alt="Svjetleci divovi"
             />
           </div>
         </div>
@@ -657,19 +638,17 @@ export const IstriaRoadTrip2022 = () => (
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.JamesJoyce.src}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.JamesJoyce.src}
                 alt="James Joyce"
-                layout="fill"
               />
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.JamesJoyce2.src}
-                alt="James Joyce 2"
-                layout="fill"
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.JamesJoyce2.src}
+                alt="James Joyce"
               />
             </div>
           </div>
@@ -731,11 +710,10 @@ export const IstriaRoadTrip2022 = () => (
               </p>
             </span>
             <div className="image-container py-12 xl:max-w-[40%] 3xl:py-24">
-              <Image
-                className="image rounded-lg"
-                src={images.Labin.src}
+              <img
+                className="image lazyload rounded-lg"
+                data-src={images.Labin.src}
                 alt="Labin"
-                layout="fill"
               />
             </div>
           </div>
@@ -779,11 +757,10 @@ export const IstriaRoadTrip2022 = () => (
                 </p>
               </span>
               <div className="image-container py-12 xl:max-w-[40%] 3xl:py-24">
-                <Image
-                  className="image rounded-lg"
-                  src={images.Labin2.src}
+                <img
+                  className="image lazyload rounded-lg"
+                  data-src={images.Labin2.src}
                   alt="Gallery Alvona & Negri palace"
-                  layout="fill"
                 />
               </div>
             </div>
@@ -799,11 +776,10 @@ export const IstriaRoadTrip2022 = () => (
                 </p>
               </span>
               <div className="image-container py-12 xl:max-w-[40%] 3xl:py-24">
-                <Image
-                  className="image rounded-lg"
-                  src={images.VidikovacFortica.src}
+                <img
+                  className="image lazyload rounded-lg"
+                  data-src={images.VidikovacFortica.src}
                   alt="Vidikovac Fortica"
-                  layout="fill"
                 />
               </div>
             </div>
@@ -819,11 +795,10 @@ export const IstriaRoadTrip2022 = () => (
                 </p>
               </span>
               <div className="image-container py-12 xl:max-w-[40%] 3xl:py-24">
-                <Image
-                  className="image rounded-lg"
-                  src={images.CrkvaRodenjaBlazeneDjeviceMarije.src}
+                <img
+                  className="image lazyload rounded-lg"
+                  data-src={images.CrkvaRodenjaBlazeneDjeviceMarije.src}
                   alt="Crkva Rođenja Blažene Djevice Marije"
-                  layout="fill"
                 />
               </div>
             </div>
@@ -844,19 +819,17 @@ export const IstriaRoadTrip2022 = () => (
               </span>
               <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
                 <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-                  <Image
-                    className="image image-two_line-size-xl rounded-lg"
-                    src={images.BattialaLazzariniPalace.src}
+                  <img
+                    className="image lazyload image-two_line-size-xl rounded-lg"
+                    data-src={images.BattialaLazzariniPalace.src}
                     alt="Battiala Lazzarini Palace"
-                    layout="fill"
                   />
                 </div>
                 <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-                  <Image
-                    className="image image-two_line-size-xl rounded-lg"
-                    src={images.BattialaLazzariniPalace2.src}
-                    alt="Battiala Lazzarini Palace 2"
-                    layout="fill"
+                  <img
+                    className="image lazyload image-two_line-size-xl rounded-lg"
+                    data-src={images.BattialaLazzariniPalace2.src}
+                    alt="Battiala Lazzarini Palace"
                   />
                 </div>
               </div>
@@ -895,27 +868,24 @@ export const IstriaRoadTrip2022 = () => (
               </span>
               <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
                 <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-                  <Image
-                    className="image image-two_line-size-xl rounded-lg"
-                    src={images.NarodniMuzejLabin.src}
+                  <img
+                    className="image lazyload image-two_line-size-xl rounded-lg"
+                    data-src={images.NarodniMuzejLabin.src}
                     alt="Narodni Muzej Labin"
-                    layout="fill"
                   />
                 </div>
                 <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-                  <Image
-                    className="image image-two_line-size-xl rounded-lg"
-                    src={images.NarodniMuzejLabin2.src}
-                    alt="Narodni Muzej Labin 2"
-                    layout="fill"
+                  <img
+                    className="image lazyload image-two_line-size-xl rounded-lg"
+                    data-src={images.NarodniMuzejLabin2.src}
+                    alt="Narodni Muzej Labin"
                   />
                 </div>
                 <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-                  <Image
-                    className="image image-two_line-size-xl rounded-lg"
-                    src={images.NarodniMuzejLabin3.src}
-                    alt="Narodni Muzej Labin 3"
-                    layout="fill"
+                  <img
+                    className="image lazyload image-two_line-size-xl rounded-lg"
+                    data-src={images.NarodniMuzejLabin3.src}
+                    alt="Narodni Muzej Labin"
                   />
                 </div>
               </div>
@@ -956,11 +926,10 @@ export const IstriaRoadTrip2022 = () => (
                 </p>
               </span>
               <div className="image-container py-12 xl:max-w-[40%] 3xl:py-24">
-                <Image
-                  className="image rounded-lg"
-                  src={images.ProzoriLabinskihLegendi.src}
+                <img
+                  className="image lazyload rounded-lg"
+                  data-src={images.ProzoriLabinskihLegendi.src}
                   alt="Prozori Labinskih Legendi"
-                  layout="fill"
                 />
               </div>
             </div>
@@ -996,11 +965,10 @@ export const IstriaRoadTrip2022 = () => (
                 </p>
               </span>
               <div className="image-container py-12 xl:max-w-[40%] 3xl:py-24">
-                <Image
-                  className="image rounded-lg"
-                  src={images.PizzeriaRumore.src}
+                <img
+                  className="image lazyload rounded-lg"
+                  data-src={images.PizzeriaRumore.src}
                   alt="Pizzeria Rumore"
-                  layout="fill"
                 />
               </div>
             </div>
@@ -1040,27 +1008,24 @@ export const IstriaRoadTrip2022 = () => (
             </span>
             <div className="xl:flex xl:h-full xl:w-full xl:items-end xl:justify-between xl:py-12 3xl:py-24">
               <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-                <Image
-                  className="image image-two_line-size-xl rounded-lg"
-                  src={images.RtKamenjak.src}
+                <img
+                  className="image lazyload image-two_line-size-xl rounded-lg"
+                  data-src={images.RtKamenjak.src}
                   alt="Rt Kamenjak"
-                  layout="fill"
                 />
               </div>
               <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-                <Image
-                  className="image image-two_line-size-xl rounded-lg"
-                  src={images.SafariBar4.src}
-                  alt="Safari Bar 4"
-                  layout="fill"
+                <img
+                  className="image lazyload image-two_line-size-xl rounded-lg"
+                  data-src={images.SafariBar4.src}
+                  alt="Safari Bar"
                 />
               </div>
               <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-                <Image
-                  className="image image-two_line-size-xl rounded-lg"
-                  src={images.RtKamenjak3.src}
-                  alt="Rt Kamenjak 3"
-                  layout="fill"
+                <img
+                  className="image lazyload image-two_line-size-xl rounded-lg"
+                  data-src={images.RtKamenjak3.src}
+                  alt="Rt Kamenjak"
                 />
               </div>
             </div>
@@ -1113,27 +1078,24 @@ export const IstriaRoadTrip2022 = () => (
               </span>
               <div className="xl:flex xl:h-full xl:w-full xl:items-end xl:justify-between xl:py-12 3xl:py-24">
                 <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-                  <Image
-                    className="image image-two_line-size-xl rounded-lg"
-                    src={images.RadovicaBeach.src}
+                  <img
+                    className="image lazyload image-two_line-size-xl rounded-lg"
+                    data-src={images.RadovicaBeach.src}
                     alt="Radovica Beach"
-                    layout="fill"
                   />
                 </div>
                 <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-                  <Image
-                    className="image image-two_line-size-xl rounded-lg"
-                    src={images.RadovicaBeach2.src}
-                    alt="Radovica Beach 2"
-                    layout="fill"
+                  <img
+                    className="image lazyload image-two_line-size-xl rounded-lg"
+                    data-src={images.RadovicaBeach2.src}
+                    alt="Radovica Beach"
                   />
                 </div>
                 <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-                  <Image
-                    className="image image-two_line-size-xl rounded-lg"
-                    src={images.RadovicaBeach3.src}
-                    alt="Radovica Beach 3"
-                    layout="fill"
+                  <img
+                    className="image lazyload image-two_line-size-xl rounded-lg"
+                    data-src={images.RadovicaBeach3.src}
+                    alt="Radovica Beach"
                   />
                 </div>
               </div>
@@ -1161,19 +1123,17 @@ export const IstriaRoadTrip2022 = () => (
               </span>
               <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
                 <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-                  <Image
-                    className="image image-two_line-size-xl rounded-lg"
-                    src={images.PlovanijeBeach.src}
-                    alt="Plovanije Beach"
-                    layout="fill"
+                  <img
+                    className="image lazyload image-two_line-size-xl rounded-lg"
+                    data-src={images.PlovanijeBeach.src}
+                    alt="Plovanije beach"
                   />
                 </div>
                 <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-                  <Image
-                    className="image image-two_line-size-xl rounded-lg"
-                    src={images.PlovanijeBeach2.src}
-                    alt="Plovanije Beach 2"
-                    layout="fill"
+                  <img
+                    className="image lazyload image-two_line-size-xl rounded-lg"
+                    data-src={images.PlovanijeBeach2.src}
+                    alt="Plovanije beach"
                   />
                 </div>
               </div>
@@ -1192,19 +1152,17 @@ export const IstriaRoadTrip2022 = () => (
               </span>
               <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-between xl:py-12 3xl:py-24">
                 <div className="image-container py-12 xl:max-w-[45%] 3xl:py-24">
-                  <Image
-                    className="image image-two_line-size-xl rounded-lg"
-                    src={images.NjiveBeach.src}
-                    alt="Njive Beach"
-                    layout="fill"
+                  <img
+                    className="image lazyload image-two_line-size-xl rounded-lg"
+                    data-src={images.NjiveBeach.src}
+                    alt="Njive beach"
                   />
                 </div>
                 <div className="image-container py-12 xl:max-w-[45%] 3xl:py-24">
-                  <Image
-                    className="image image-two_line-size-xl rounded-lg"
-                    src={images.NjiveBeach2.src}
-                    alt="Njive Beach 2"
-                    layout="fill"
+                  <img
+                    className="image lazyload image-two_line-size-xl rounded-lg"
+                    data-src={images.NjiveBeach2.src}
+                    alt="Njive beach"
                   />
                 </div>
               </div>
@@ -1222,11 +1180,10 @@ export const IstriaRoadTrip2022 = () => (
                 </p>
               </span>
               <div className="image-container py-12 xl:max-w-[40%] 3xl:py-24">
-                <Image
-                  className="image rounded-lg"
-                  src={images.UvalaPortic.src}
+                <img
+                  className="image lazyload rounded-lg"
+                  data-src={images.UvalaPortic.src}
                   alt="Uvala Portić"
-                  layout="fill"
                 />
               </div>
             </div>
@@ -1261,27 +1218,24 @@ export const IstriaRoadTrip2022 = () => (
               </span>
               <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-between xl:py-12 3xl:py-24">
                 <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-                  <Image
-                    className="image image-two_line-size-xl rounded-lg"
-                    src={images.SafariBar.src}
+                  <img
+                    className="image lazyload image-two_line-size-xl rounded-lg"
+                    data-src={images.SafariBar.src}
                     alt="Safari Bar"
-                    layout="fill"
                   />
                 </div>
                 <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-                  <Image
-                    className="image image-two_line-size-xl rounded-lg"
-                    src={images.SafariBar2.src}
-                    alt="Safari Bar 2"
-                    layout="fill"
+                  <img
+                    className="image lazyload image-two_line-size-xl rounded-lg"
+                    data-src={images.SafariBar2.src}
+                    alt="Safari Bar"
                   />
                 </div>
                 <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-                  <Image
-                    className="image image-two_line-size-xl rounded-lg"
-                    src={images.SafariBar3.src}
-                    alt="Safari Bar 3"
-                    layout="fill"
+                  <img
+                    className="image lazyload image-two_line-size-xl rounded-lg"
+                    data-src={images.SafariBar3.src}
+                    alt="Safari Bar"
                   />
                 </div>
               </div>
@@ -1328,19 +1282,17 @@ export const IstriaRoadTrip2022 = () => (
             </span>
             <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-between xl:py-12 3xl:py-24">
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-                <Image
-                  className="image image-two_line-size-xl rounded-lg"
-                  src={images.PijanaPruga.src}
-                  alt="Pijana Pruga"
-                  layout="fill"
+                <img
+                  className="image lazyload image-two_line-size-xl rounded-lg"
+                  data-src={images.PijanaPruga.src}
+                  alt="Cepicko Polje Pijana Pruga"
                 />
               </div>
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-                <Image
-                  className="image image-two_line-size-xl rounded-lg"
-                  src={images.CepickoPoljePijanaPruga.src}
+                <img
+                  className="image lazyload image-two_line-size-xl rounded-lg"
+                  data-src={images.CepickoPoljePijanaPruga.src}
                   alt="Cepicko Polje Pijana Pruga"
-                  layout="fill"
                 />
               </div>
             </div>
@@ -1367,11 +1319,10 @@ export const IstriaRoadTrip2022 = () => (
               </p>
             </span>
             <div className="image-container py-12 xl:max-w-[40%] 3xl:py-24">
-              <Image
-                className="image rounded-lg"
-                src={images.Kayaks.src}
+              <img
+                className="image lazyload rounded-lg"
+                data-src={images.Kayaks.src}
                 alt="Kayaks"
-                layout="fill"
               />
             </div>
           </div>
@@ -1388,11 +1339,10 @@ export const IstriaRoadTrip2022 = () => (
               </p>
             </span>
             <div className="image-container py-12 xl:max-w-[40%] 3xl:py-24">
-              <Image
-                className="image rounded-lg"
-                src={images.Kayaks2.src}
-                alt="Kayaks 2"
-                layout="fill"
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.Kayaks2.src}
+                alt="Kayaks"
               />
             </div>
           </div>
@@ -1428,11 +1378,10 @@ export const IstriaRoadTrip2022 = () => (
               </p>
             </span>
             <div className="image-container py-12 xl:max-w-[40%] 3xl:py-24">
-              <Image
-                className="image rounded-lg"
-                src={images.Kayaks3.src}
-                alt="Kayaks 3"
-                layout="fill"
+              <img
+                className="image lazyload rounded-lg"
+                data-src={images.Kayaks3.src}
+                alt="Kayaks"
               />
             </div>
           </div>

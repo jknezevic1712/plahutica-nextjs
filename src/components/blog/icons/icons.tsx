@@ -1,5 +1,5 @@
+import "lazysizes";
 import React from "react";
-import Image from "next/image";
 
 import { IconTypes } from "../../../../types/enums/icons";
 
@@ -38,11 +38,10 @@ const AuxiliaryIcon = ({ title, excursionIcon, iconType }: BlogIconProps) => {
     return (
       <h4 className="flex w-full items-center justify-center py-12">
         <div className="icon-container">
-          <Image
-            className="icon rounded-lg"
-            src={getIconImg(iconType)}
+          <img
+            className="lazyload icon rounded-lg"
+            data-src={getIconImg(iconType)}
             alt={`${iconType} icon`}
-            layout="fill"
           />
         </div>
         <span className="ml-6 flex min-h-[50px] items-center justify-center font-plus-jakarta-sans text-2xl italic text-lime-400 lg:text-3xl">
@@ -55,11 +54,10 @@ const AuxiliaryIcon = ({ title, excursionIcon, iconType }: BlogIconProps) => {
   return (
     <h2 className="flex w-fit items-center justify-center pb-12">
       <div className="icon-container">
-        <Image
-          className="icon rounded-lg"
-          src={getIconImg(iconType)}
+        <img
+          className="lazyload icon rounded-lg"
+          data-src={getIconImg(iconType)}
           alt={`${iconType} icon`}
-          layout="fill"
         />
       </div>
       <span className="flex min-h-[50px] items-center justify-center pl-6 font-plus-jakarta-sans text-2xl italic text-lime-400 md:text-3xl 2xl:text-4xl">

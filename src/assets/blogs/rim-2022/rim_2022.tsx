@@ -1,4 +1,4 @@
-import Image from "next/image";
+import "lazysizes";
 
 import AuxiliaryIcon from "components/blog/icons/icons";
 import { IconTypes } from "../../../../types/enums/icons";
@@ -41,11 +41,10 @@ export const Rim2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
-            <Image
-              className="image rounded-lg"
-              src={images.RandomStreet.src}
+            <img
+              className="image lazyload rounded-lg"
+              data-src={images.RandomStreet.src}
               alt="Random Street"
-              layout="fill"
             />
           </div>
         </div>
@@ -63,11 +62,10 @@ export const Rim2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
-            <Image
-              className="image rounded-lg"
-              src={images.RandomStreet2.src}
+            <img
+              className="image lazyload rounded-lg"
+              data-src={images.RandomStreet2.src}
               alt="Random Street"
-              layout="fill"
             />
           </div>
         </div>
@@ -118,11 +116,10 @@ export const Rim2022 = () => (
               </ul>
             </span>
             <div className="image-container py-12 xl:max-w-[40%] 3xl:py-24">
-              <Image
-                className="image rounded-lg"
-                src={images.RandomStreet3.src}
+              <img
+                className="image lazyload rounded-lg"
+                data-src={images.RandomStreet3.src}
                 alt="Random Street"
-                layout="fill"
               />
             </div>
           </div>
@@ -165,11 +162,10 @@ export const Rim2022 = () => (
           </p>
         </span>
         <div className="image-container py-12 xl:max-w-[40%] 3xl:py-24">
-          <Image
-            className="image rounded-lg"
-            src={images.RandomStreet4.src}
+          <img
+            className="image lazyload rounded-lg"
+            data-src={images.RandomStreet4.src}
             alt="Random Street"
-            layout="fill"
           />
         </div>
       </div>
@@ -216,11 +212,10 @@ export const Rim2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
-            <Image
-              className="image rounded-lg"
-              src={images.Avion1.src}
+            <img
+              className="image lazyload rounded-lg"
+              data-src={images.Avion1.src}
               alt="Slika iz aviona"
-              layout="fill"
             />
           </div>
         </div>
@@ -240,11 +235,10 @@ export const Rim2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
-            <Image
-              className="image rounded-lg"
-              src={images.Avion3.src}
+            <img
+              className="image lazyload rounded-lg"
+              data-src={images.Avion3.src}
               alt="Slika iz aviona"
-              layout="fill"
             />
           </div>
         </div>
@@ -278,11 +272,10 @@ export const Rim2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
-            <Image
-              className="image rounded-lg"
-              src={images.Avion2.src}
+            <img
+              className="image lazyload rounded-lg"
+              data-src={images.Avion2.src}
               alt="Slika iz aviona"
-              layout="fill"
             />
           </div>
         </div>
@@ -336,11 +329,10 @@ export const Rim2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
-            <Image
-              className="image rounded-lg"
-              src={images.PastificioGuerra.src}
+            <img
+              className="image lazyload rounded-lg"
+              data-src={images.PastificioGuerra.src}
               alt="Pastificio Guerra"
-              layout="fill"
             />
           </div>
         </div>
@@ -368,11 +360,10 @@ export const Rim2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
-            <Image
-              className="image rounded-lg"
-              src={images.Tonarello.src}
+            <img
+              className="image lazyload rounded-lg"
+              data-src={images.Tonarello.src}
               alt="Tonarello"
-              layout="fill"
             />
           </div>
         </div>
@@ -407,19 +398,17 @@ export const Rim2022 = () => (
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.Pompi.src}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.Pompi.src}
                 alt="Pompi"
-                layout="fill"
               />
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.Pompi2.src}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.Pompi2.src}
                 alt="Pompi"
-                layout="fill"
               />
             </div>
           </div>
@@ -450,11 +439,10 @@ export const Rim2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
-            <Image
-              className="image rounded-lg"
-              src={images.AllAnticoVinaio.src}
+            <img
+              className="image lazyload rounded-lg"
+              data-src={images.AllAnticoVinaio.src}
               alt="All'Antico Vinaio"
-              layout="fill"
             />
           </div>
         </div>
@@ -479,11 +467,10 @@ export const Rim2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
-            <Image
-              className="image rounded-lg"
-              src={images.Vulio.src}
+            <img
+              className="image lazyload rounded-lg"
+              data-src={images.Vulio.src}
               alt="Vulio"
-              layout="fill"
             />
           </div>
         </div>
@@ -509,19 +496,17 @@ export const Rim2022 = () => (
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.Pinsa.src}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.Pinsa.src}
                 alt="Pinsa"
-                layout="fill"
               />
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.Pinsa2.src}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.Pinsa2.src}
                 alt="Pinsa"
-                layout="fill"
               />
             </div>
           </div>
@@ -553,19 +538,17 @@ export const Rim2022 = () => (
             </span>
             <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
               <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-                <Image
-                  className="image image-two_line-size-xl rounded-lg"
-                  src={images.Koloseum.src}
+                <img
+                  className="image lazyload image-two_line-size-xl rounded-lg"
+                  data-src={images.Koloseum.src}
                   alt="Koloseum"
-                  layout="fill"
                 />
               </div>
               <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-                <Image
-                  className="image image-two_line-size-xl rounded-lg"
-                  src={images.Koloseum2.src}
+                <img
+                  className="image lazyload image-two_line-size-xl rounded-lg"
+                  data-src={images.Koloseum2.src}
                   alt="Koloseum"
-                  layout="fill"
                 />
               </div>
             </div>
@@ -600,19 +583,17 @@ export const Rim2022 = () => (
             </span>
             <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
               <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-                <Image
-                  className="image image-two_line-size-xl rounded-lg"
-                  src={images.Koloseum3.src}
+                <img
+                  className="image lazyload image-two_line-size-xl rounded-lg"
+                  data-src={images.Koloseum3.src}
                   alt="Koloseum"
-                  layout="fill"
                 />
               </div>
               <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-                <Image
-                  className="image image-two_line-size-xl rounded-lg"
-                  src={images.Koloseum4.src}
+                <img
+                  className="image lazyload image-two_line-size-xl rounded-lg"
+                  data-src={images.Koloseum4.src}
                   alt="Koloseum"
-                  layout="fill"
                 />
               </div>
             </div>
@@ -633,19 +614,17 @@ export const Rim2022 = () => (
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.Palatin.src}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.Palatin.src}
                 alt="Palatin"
-                layout="fill"
               />
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.Palatin2.src}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.Palatin2.src}
                 alt="Palatin"
-                layout="fill"
               />
             </div>
           </div>
@@ -667,27 +646,24 @@ export const Rim2022 = () => (
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.RimskiForum.src}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.RimskiForum.src}
                 alt="Rimski Forum"
-                layout="fill"
               />
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.RimskiForum3.src}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.RimskiForum3.src}
                 alt="Rimski Forum"
-                layout="fill"
               />
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.RimskiForum2.src}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.RimskiForum2.src}
                 alt="Rimski Forum"
-                layout="fill"
               />
             </div>
           </div>
@@ -719,27 +695,24 @@ export const Rim2022 = () => (
             </span>
             <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-                <Image
-                  className="image image-two_line-size-xl rounded-lg"
-                  src={images.FontanaDiTrevi2.src}
+                <img
+                  className="image lazyload image-two_line-size-xl rounded-lg"
+                  data-src={images.FontanaDiTrevi2.src}
                   alt="Fontana Di Trevi"
-                  layout="fill"
                 />
               </div>
               <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
-                <Image
-                  className="image image-two_line-size-xl rounded-lg"
-                  src={images.FontanaDiTrevi.src}
+                <img
+                  className="image lazyload image-two_line-size-xl rounded-lg"
+                  data-src={images.FontanaDiTrevi.src}
                   alt="Fontana Di Trevi"
-                  layout="fill"
                 />
               </div>
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-                <Image
-                  className="image image-two_line-size-xl rounded-lg"
-                  src={images.FontanaDiTrevi3.src}
+                <img
+                  className="image lazyload image-two_line-size-xl rounded-lg"
+                  data-src={images.FontanaDiTrevi3.src}
                   alt="Fontana Di Trevi"
-                  layout="fill"
                 />
               </div>
             </div>
@@ -760,11 +733,10 @@ export const Rim2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
-            <Image
-              className="image rounded-lg"
-              src={images.Panteon.src}
+            <img
+              className="image lazyload rounded-lg"
+              data-src={images.Panteon.src}
               alt="Panteon"
-              layout="fill"
             />
           </div>
         </div>
@@ -784,19 +756,17 @@ export const Rim2022 = () => (
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.PiazzaNavona.src}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.PiazzaNavona.src}
                 alt="Piazza Navona"
-                layout="fill"
               />
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.PiazzaNavona2.src}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.PiazzaNavona2.src}
                 alt="Piazza Navona"
-                layout="fill"
               />
             </div>
           </div>
@@ -822,19 +792,17 @@ export const Rim2022 = () => (
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.Vatikan.src}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.Vatikan.src}
                 alt="Vatikan"
-                layout="fill"
               />
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.Vatikan2.src}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.Vatikan2.src}
                 alt="Vatikan"
-                layout="fill"
               />
             </div>
           </div>
@@ -858,19 +826,17 @@ export const Rim2022 = () => (
             </span>
             <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-                <Image
-                  className="image image-two_line-size-xl rounded-lg"
-                  src={images.VatikanskiMuzej.src}
+                <img
+                  className="image lazyload image-two_line-size-xl rounded-lg"
+                  data-src={images.VatikanskiMuzej.src}
                   alt="Vatikanski muzeji"
-                  layout="fill"
                 />
               </div>
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-                <Image
-                  className="image image-two_line-size-xl rounded-lg"
-                  src={images.VatikanskiMuzej3.src}
+                <img
+                  className="image lazyload image-two_line-size-xl rounded-lg"
+                  data-src={images.VatikanskiMuzej3.src}
                   alt="Vatikanski muzeji"
-                  layout="fill"
                 />
               </div>
             </div>
@@ -897,19 +863,17 @@ export const Rim2022 = () => (
             </span>
             <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-                <Image
-                  className="image image-two_line-size-xl rounded-lg"
-                  src={images.VatikanskiMuzej2.src}
+                <img
+                  className="image lazyload image-two_line-size-xl rounded-lg"
+                  data-src={images.VatikanskiMuzej2.src}
                   alt="Vatikanski muzeji"
-                  layout="fill"
                 />
               </div>
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-                <Image
-                  className="image image-two_line-size-xl rounded-lg"
-                  src={images.VatikanskiMuzej4.src}
+                <img
+                  className="image lazyload image-two_line-size-xl rounded-lg"
+                  data-src={images.VatikanskiMuzej4.src}
                   alt="Vatikanski muzeji"
-                  layout="fill"
                 />
               </div>
             </div>
@@ -944,19 +908,17 @@ export const Rim2022 = () => (
             </span>
             <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-                <Image
-                  className="image image-two_line-size-xl rounded-lg"
-                  src={images.PiazzaDiPopolo3.src}
+                <img
+                  className="image lazyload image-two_line-size-xl rounded-lg"
+                  data-src={images.PiazzaDiPopolo3.src}
                   alt="Piazza Di Popolo"
-                  layout="fill"
                 />
               </div>
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-                <Image
-                  className="image image-two_line-size-xl rounded-lg"
-                  src={images.PiazzaDiPopolo2.src}
+                <img
+                  className="image lazyload image-two_line-size-xl rounded-lg"
+                  data-src={images.PiazzaDiPopolo2.src}
                   alt="Piazza Di Popolo"
-                  layout="fill"
                 />
               </div>
             </div>
@@ -974,19 +936,17 @@ export const Rim2022 = () => (
             </span>
             <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-                <Image
-                  className="image image-two_line-size-xl rounded-lg"
-                  src={images.PiazzaDiPopolo.src}
+                <img
+                  className="image lazyload image-two_line-size-xl rounded-lg"
+                  data-src={images.PiazzaDiPopolo.src}
                   alt="Piazza Di Popolo"
-                  layout="fill"
                 />
               </div>
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-                <Image
-                  className="image image-two_line-size-xl rounded-lg"
-                  src={images.PiazzaDiPopolo4.src}
+                <img
+                  className="image lazyload image-two_line-size-xl rounded-lg"
+                  data-src={images.PiazzaDiPopolo4.src}
                   alt="Piazza Di Popolo"
-                  layout="fill"
                 />
               </div>
             </div>
@@ -1009,19 +969,17 @@ export const Rim2022 = () => (
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.VillaBorghese.src}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.VillaBorghese.src}
                 alt="Villa Borghese"
-                layout="fill"
               />
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.VillaBorghese2.src}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.VillaBorghese2.src}
                 alt="Villa Borghese"
-                layout="fill"
               />
             </div>
           </div>
@@ -1047,27 +1005,24 @@ export const Rim2022 = () => (
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.PiazzaDiSpagna2.src}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.PiazzaDiSpagna2.src}
                 alt="Piazza Di Spagna"
-                layout="fill"
               />
             </div>
             <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.PiazzaDiSpagna.src}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.PiazzaDiSpagna.src}
                 alt="Piazza Di Spagna"
-                layout="fill"
               />
             </div>
             <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.PiazzaDiSpagna3.src}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.PiazzaDiSpagna3.src}
                 alt="Piazza Di Spagna"
-                layout="fill"
               />
             </div>
           </div>
@@ -1085,11 +1040,10 @@ export const Rim2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
-            <Image
-              className="image rounded-lg"
-              src={images.StAndreaDellaValle.src}
+            <img
+              className="image lazyload rounded-lg"
+              data-src={images.StAndreaDellaValle.src}
               alt="Bazilika di Sant'Andrea della Valle"
-              layout="fill"
             />
           </div>
         </div>
@@ -1111,27 +1065,24 @@ export const Rim2022 = () => (
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.Trastevere.src}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.Trastevere.src}
                 alt="Trastevere"
-                layout="fill"
               />
             </div>
             <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.Trastevere3.src}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.Trastevere3.src}
                 alt="Trastevere"
-                layout="fill"
               />
             </div>
             <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.Trastevere2.src}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.Trastevere2.src}
                 alt="Trastevere"
-                layout="fill"
               />
             </div>
           </div>
@@ -1156,19 +1107,17 @@ export const Rim2022 = () => (
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.Trznica2.src}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.Trznica2.src}
                 alt="Trznica"
-                layout="fill"
               />
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.Trznica.src}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.Trznica.src}
                 alt="Trznica"
-                layout="fill"
               />
             </div>
           </div>
@@ -1194,19 +1143,17 @@ export const Rim2022 = () => (
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.TvrdavaStAngelo.src}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.TvrdavaStAngelo.src}
                 alt="Tvrdava St Angelo"
-                layout="fill"
               />
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.TvrdavaStAngelo2.src}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.TvrdavaStAngelo2.src}
                 alt="Tvrdava St Angelo"
-                layout="fill"
               />
             </div>
           </div>
@@ -1230,19 +1177,17 @@ export const Rim2022 = () => (
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.VittorioEmanuele.src}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.VittorioEmanuele.src}
                 alt="Spomenik Viktoru Emanuelu II."
-                layout="fill"
               />
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.VittorioEmanuele2.src}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.VittorioEmanuele2.src}
                 alt="Spomenik Viktoru Emanuelu II."
-                layout="fill"
               />
             </div>
           </div>

@@ -1,4 +1,4 @@
-import Image from "next/image";
+import "lazysizes";
 
 import images from "./images/images";
 
@@ -38,11 +38,10 @@ export const Zagorje2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-            <Image
-              className="image rounded-lg"
-              src={images.RandomImg2}
+            <img
+              className="image lazyload rounded-lg"
+              data-src={images.RandomImg2.src}
               alt="Vinogradi"
-              layout="fill"
             />
           </div>
         </div>
@@ -65,11 +64,10 @@ export const Zagorje2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-            <Image
-              className="image rounded-lg"
-              src={images.Kumrovec2}
+            <img
+              className="image lazyload rounded-lg"
+              data-src={images.Kumrovec2.src}
               alt="Kumrovec"
-              layout="fill"
             />
           </div>
         </div>
@@ -88,19 +86,17 @@ export const Zagorje2022 = () => (
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-between xl:py-12 3xl:py-24">
             <div className="image-container pt-12 pb-4 xl:py-0">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.VelikiTabor2}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.VelikiTabor2.src}
                 alt="Veliki Tabor"
-                layout="fill"
               />
             </div>
             <div className="image-container pb-12 pt-4 xl:py-0">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.VelikiTabor9}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.VelikiTabor9.src}
                 alt="Veliki Tabor"
-                layout="fill"
               />
             </div>
           </div>
@@ -125,11 +121,10 @@ export const Zagorje2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-            <Image
-              className="image rounded-lg"
-              src={images.VelikiTabor}
+            <img
+              className="image lazyload rounded-lg"
+              data-src={images.VelikiTabor.src}
               alt="Veliki Tabor"
-              layout="fill"
             />
           </div>
         </div>
@@ -147,11 +142,10 @@ export const Zagorje2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-            <Image
-              className="image rounded-lg"
-              src={images.VelikiTabor3}
+            <img
+              className="image lazyload rounded-lg"
+              data-src={images.VelikiTabor3.src}
               alt="Veliki Tabor"
-              layout="fill"
             />
           </div>
         </div>
@@ -170,11 +164,10 @@ export const Zagorje2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-            <Image
-              className="image rounded-lg"
-              src={images.VelikiTabor8}
+            <img
+              className="image lazyload rounded-lg"
+              data-src={images.VelikiTabor8.src}
               alt="Veliki Tabor"
-              layout="fill"
             />
           </div>
         </div>
@@ -200,19 +193,17 @@ export const Zagorje2022 = () => (
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-between xl:py-12 3xl:py-24">
             <div className="image-container pt-12 pb-4 xl:py-0">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.VelikiTabor6}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.VelikiTabor6.src}
                 alt="Veliki Tabor"
-                layout="fill"
               />
             </div>
             <div className="image-container pb-12 pt-4 xl:py-0">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.VelikiTabor7}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.VelikiTabor7.src}
                 alt="Veliki Tabor"
-                layout="fill"
               />
             </div>
           </div>
@@ -238,19 +229,17 @@ export const Zagorje2022 = () => (
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-between xl:py-12 3xl:py-24">
             <div className="image-container pt-12 pb-4 xl:py-0">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.GresnaGorica}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.GresnaGorica.src}
                 alt="Grešna Gorica"
-                layout="fill"
               />
             </div>
             <div className="image-container pb-12 pt-4 xl:py-0">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.GresnaGorica2}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.GresnaGorica2.src}
                 alt="Grešna Gorica"
-                layout="fill"
               />
             </div>
           </div>
@@ -266,11 +255,10 @@ export const Zagorje2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-            <Image
-              className="image rounded-lg"
-              src={images.GresnaGorica3}
+            <img
+              className="image lazyload rounded-lg"
+              data-src={images.GresnaGorica3.src}
               alt="Grešna Gorica"
-              layout="fill"
             />
           </div>
         </div>
@@ -286,11 +274,10 @@ export const Zagorje2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-            <Image
-              className="image rounded-lg"
-              src={images.GresnaGorica7}
+            <img
+              className="image lazyload rounded-lg"
+              data-src={images.GresnaGorica7.src}
               alt="Grešna Gorica"
-              layout="fill"
             />
           </div>
         </div>
@@ -311,27 +298,24 @@ export const Zagorje2022 = () => (
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-between xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:py-0">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.GresnaGorica5}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.GresnaGorica5.src}
                 alt="Grešna Gorica"
-                layout="fill"
               />
             </div>
             <div className="image-container">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.GresnaGorica4}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.GresnaGorica4.src}
                 alt="Grešna Gorica"
-                layout="fill"
               />
             </div>
             <div className="image-container py-12 xl:py-0">
-              <Image
-                className="image image-two_line-size-xl rounded-lg"
-                src={images.GresnaGorica6}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.GresnaGorica6.src}
                 alt="Grešna Gorica"
-                layout="fill"
               />
             </div>
           </div>
@@ -359,27 +343,24 @@ export const Zagorje2022 = () => (
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:flex-wrap xl:items-center xl:justify-center xl:py-12 2xl:justify-between 3xl:py-24">
             <div className="image-container image-container-w-half pt-12 pb-8 xl:py-0">
-              <Image
-                className="image image-two_line_landscape-size-xl rounded-lg"
-                src={images.Kumrovec}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.Kumrovec.src}
                 alt="Kumrovec"
-                layout="fill"
               />
             </div>
             <div className="image-container image-container-w-half">
-              <Image
-                className="image image-two_line_landscape-size-xl rounded-lg"
-                src={images.Kumrovec3}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.Kumrovec3.src}
                 alt="Kumrovec"
-                layout="fill"
               />
             </div>
             <div className="image-container image-container-w-half pb-12 pt-8 xl:py-0">
-              <Image
-                className="image image-two_line_landscape-size-xl rounded-lg"
-                src={images.Kumrovec4}
+              <img
+                className="image lazyload image-two_line-size-xl rounded-lg"
+                data-src={images.Kumrovec4.src}
                 alt="Kumrovec"
-                layout="fill"
               />
             </div>
           </div>
@@ -399,11 +380,10 @@ export const Zagorje2022 = () => (
             </p>
           </span>
           <div className="image-container pt-12 xl:max-w-[35%]">
-            <Image
-              className="image rounded-lg"
-              src={images.RandomImg}
+            <img
+              className="image lazyload rounded-lg"
+              data-src={images.RandomImg.src}
               alt="Lora"
-              layout="fill"
             />
           </div>
         </div>

@@ -1,6 +1,6 @@
+import "lazysizes";
 import React, { useEffect } from "react";
 import Link from "next/link";
-import Image from "next/image";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation, EffectCoverflow } from "swiper";
@@ -54,11 +54,10 @@ const HomepageCarousel = () => {
             >
               <Link href={`/blog/${blogId}`}>
                 <div className="image-container">
-                  <Image
-                    className="image h-full w-full cursor-pointer rounded-lg transition-all lg:opacity-80 lg:hover:opacity-100"
-                    src={url.src}
+                  <img
+                    className="image lazyload h-full w-full cursor-pointer rounded-lg transition-all lg:opacity-80 lg:hover:opacity-100"
+                    data-src={url.src}
                     alt=""
-                    layout="fill"
                   />
                 </div>
               </Link>

@@ -1,5 +1,5 @@
+import "lazysizes";
 import React from "react";
-import Image from "next/image";
 import { useAppContext } from "context/state";
 
 import { BlogBanners } from "assets/blogs/blogs";
@@ -23,12 +23,10 @@ const Banner: React.FC = () => {
   return (
     <div className="h-[65vh] w-full">
       <div className="relative h-full w-full">
-        <Image
-          className="h-full w-full bg-cover bg-center object-contain md:object-cover"
-          src={grabBannerUrl()}
+        <img
+          className="lazyload h-full w-full bg-cover bg-center object-contain md:object-cover"
+          data-src={grabBannerUrl()}
           alt=""
-          layout="fill"
-          priority
         />
       </div>
     </div>
