@@ -344,21 +344,21 @@ export const Zagorje2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:flex-wrap xl:items-center xl:justify-center xl:py-12 2xl:justify-between 3xl:py-24">
             <div className="image-container image-container-w-half pt-12 pb-8 xl:py-0">
               <img
-                className="image lazyload image-two_line-size-xl rounded-lg"
+                className="image lazyload image-two_line_landscape-size-xl rounded-lg"
                 data-src={images.Kumrovec.src}
                 alt="Kumrovec"
               />
             </div>
             <div className="image-container image-container-w-half">
               <img
-                className="image lazyload image-two_line-size-xl rounded-lg"
+                className="image lazyload image-two_line_landscape-size-xl rounded-lg"
                 data-src={images.Kumrovec3.src}
                 alt="Kumrovec"
               />
             </div>
             <div className="image-container image-container-w-half pb-12 pt-8 xl:py-0">
               <img
-                className="image lazyload image-two_line-size-xl rounded-lg"
+                className="image lazyload image-two_line_landscape-size-xl rounded-lg"
                 data-src={images.Kumrovec4.src}
                 alt="Kumrovec"
               />

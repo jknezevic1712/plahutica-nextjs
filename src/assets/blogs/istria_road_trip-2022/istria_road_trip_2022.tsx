@@ -413,7 +413,7 @@ export const IstriaRoadTrip2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <img
-                className="image lazyload image-two_line-size-xl rounded-lg"
+                className="image lazyload image-two_line-size-xl min-width-70 rounded-lg"
                 data-src={images.GaleboveStijene.src}
                 alt="Galebove Stijene"
               />
@@ -485,7 +485,7 @@ export const IstriaRoadTrip2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <img
-                className="image lazyload image-two_line-size-xl rounded-lg"
+                className="image lazyload image-two_line-size-xl min-width-70 rounded-lg"
                 data-src={images.Colosseum2.src}
                 alt="Colosseum"
               />
