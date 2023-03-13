@@ -55,7 +55,7 @@ const HomepageCarousel = () => {
               <Link href={`/blog/${blogId}`}>
                 <div className="image-container">
                   <Image
-                    className="image h-full w-full cursor-pointer rounded-lg transition-all lg:opacity-80 lg:hover:opacity-100"
+                    className="image h-full w-full cursor-pointer rounded-lg transition-all lg:opacity-95 lg:hover:opacity-100"
                     src={url.src}
                     alt=""
                     layout="fill"

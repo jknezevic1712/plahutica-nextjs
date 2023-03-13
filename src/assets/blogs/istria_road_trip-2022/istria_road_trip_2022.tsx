@@ -6,7 +6,7 @@ import AuxiliaryIcon from "components/blog/icons/icons";
 import images from "./images/images";
 
 export const IstriaRoadTrip2022_Overview: BlogOverview = {
-  title: "Putovanje Istrom",
+  title: "Istra",
   description: "Mjesta i aktivnosti u Istri koje svakako vrijedi doživjeti!",
 };
 
@@ -906,7 +906,7 @@ export const IstriaRoadTrip2022 = () => (
                   <Image
                     className="image image-two_line-size-xl rounded-lg"
                     src={images.NarodniMuzejLabin2.src}
-                    alt="Narodni Muzej Labin 2"
+                    alt="Narodni Muzej Labin"
                     layout="fill"
                   />
                 </div>
@@ -914,7 +914,7 @@ export const IstriaRoadTrip2022 = () => (
                   <Image
                     className="image image-two_line-size-xl rounded-lg"
                     src={images.NarodniMuzejLabin3.src}
-                    alt="Narodni Muzej Labin 3"
+                    alt="Narodni Muzej Labin"
                     layout="fill"
                   />
                 </div>
@@ -1172,7 +1172,7 @@ export const IstriaRoadTrip2022 = () => (
                   <Image
                     className="image image-two_line-size-xl rounded-lg"
                     src={images.PlovanijeBeach2.src}
-                    alt="Plovanije Beach 2"
+                    alt="Plovanije Beach"
                     layout="fill"
                   />
                 </div>
@@ -1203,7 +1203,7 @@ export const IstriaRoadTrip2022 = () => (
                   <Image
                     className="image image-two_line-size-xl rounded-lg"
                     src={images.NjiveBeach2.src}
-                    alt="Njive Beach 2"
+                    alt="Njive Beach"
                     layout="fill"
                   />
                 </div>
