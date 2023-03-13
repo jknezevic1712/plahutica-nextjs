@@ -38,10 +38,11 @@ export const Zagorje2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-            <img
+            <Image
               className="image rounded-lg"
-              src={images.RandomImg2.src}
+              src={images.RandomImg2}
               alt="Vinogradi"
+              layout="fill"
             />
           </div>
         </div>
@@ -64,10 +65,11 @@ export const Zagorje2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-            <img
+            <Image
               className="image rounded-lg"
-              src={images.Kumrovec2.src}
+              src={images.Kumrovec2}
               alt="Kumrovec"
+              layout="fill"
             />
           </div>
         </div>
@@ -86,17 +88,19 @@ export const Zagorje2022 = () => (
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-between xl:py-12 3xl:py-24">
             <div className="image-container pt-12 pb-4 xl:py-0">
-              <img
+              <Image
                 className="image image-two_line-size-xl rounded-lg"
-                src={images.VelikiTabor2.src}
+                src={images.VelikiTabor2}
                 alt="Veliki Tabor"
+                layout="fill"
               />
             </div>
             <div className="image-container pb-12 pt-4 xl:py-0">
-              <img
+              <Image
                 className="image image-two_line-size-xl rounded-lg"
-                src={images.VelikiTabor9.src}
+                src={images.VelikiTabor9}
                 alt="Veliki Tabor"
+                layout="fill"
               />
             </div>
           </div>
@@ -121,10 +125,11 @@ export const Zagorje2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-            <img
+            <Image
               className="image rounded-lg"
-              src={images.VelikiTabor.src}
+              src={images.VelikiTabor}
               alt="Veliki Tabor"
+              layout="fill"
             />
           </div>
         </div>
@@ -142,10 +147,11 @@ export const Zagorje2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-            <img
+            <Image
               className="image rounded-lg"
-              src={images.VelikiTabor3.src}
+              src={images.VelikiTabor3}
               alt="Veliki Tabor"
+              layout="fill"
             />
           </div>
         </div>
@@ -164,10 +170,11 @@ export const Zagorje2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-            <img
+            <Image
               className="image rounded-lg"
-              src={images.VelikiTabor8.src}
+              src={images.VelikiTabor8}
               alt="Veliki Tabor"
+              layout="fill"
             />
           </div>
         </div>
@@ -193,17 +200,19 @@ export const Zagorje2022 = () => (
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-between xl:py-12 3xl:py-24">
             <div className="image-container pt-12 pb-4 xl:py-0">
-              <img
+              <Image
                 className="image image-two_line-size-xl rounded-lg"
-                src={images.VelikiTabor6.src}
+                src={images.VelikiTabor6}
                 alt="Veliki Tabor"
+                layout="fill"
               />
             </div>
             <div className="image-container pb-12 pt-4 xl:py-0">
-              <img
+              <Image
                 className="image image-two_line-size-xl rounded-lg"
-                src={images.VelikiTabor7.src}
+                src={images.VelikiTabor7}
                 alt="Veliki Tabor"
+                layout="fill"
               />
             </div>
           </div>
@@ -229,17 +238,19 @@ export const Zagorje2022 = () => (
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-between xl:py-12 3xl:py-24">
             <div className="image-container pt-12 pb-4 xl:py-0">
-              <img
+              <Image
                 className="image image-two_line-size-xl rounded-lg"
-                src={images.GresnaGorica.src}
+                src={images.GresnaGorica}
                 alt="Grešna Gorica"
+                layout="fill"
               />
             </div>
             <div className="image-container pb-12 pt-4 xl:py-0">
-              <img
+              <Image
                 className="image image-two_line-size-xl rounded-lg"
-                src={images.GresnaGorica2.src}
+                src={images.GresnaGorica2}
                 alt="Grešna Gorica"
+                layout="fill"
               />
             </div>
           </div>
@@ -255,10 +266,11 @@ export const Zagorje2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-            <img
+            <Image
               className="image rounded-lg"
-              src={images.GresnaGorica3.src}
+              src={images.GresnaGorica3}
               alt="Grešna Gorica"
+              layout="fill"
             />
           </div>
         </div>
@@ -274,10 +286,11 @@ export const Zagorje2022 = () => (
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
-            <img
+            <Image
               className="image rounded-lg"
-              src={images.GresnaGorica7.src}
+              src={images.GresnaGorica7}
               alt="Grešna Gorica"
+              layout="fill"
             />
           </div>
         </div>
@@ -298,24 +311,27 @@ export const Zagorje2022 = () => (
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-between xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:py-0">
-              <img
+              <Image
                 className="image image-two_line-size-xl rounded-lg"
-                src={images.GresnaGorica5.src}
+                src={images.GresnaGorica5}
                 alt="Grešna Gorica"
+                layout="fill"
               />
             </div>
             <div className="image-container">
-              <img
+              <Image
                 className="image image-two_line-size-xl rounded-lg"
-                src={images.GresnaGorica4.src}
+                src={images.GresnaGorica4}
                 alt="Grešna Gorica"
+                layout="fill"
               />
             </div>
             <div className="image-container py-12 xl:py-0">
-              <img
+              <Image
                 className="image image-two_line-size-xl rounded-lg"
-                src={images.GresnaGorica6.src}
+                src={images.GresnaGorica6}
                 alt="Grešna Gorica"
+                layout="fill"
               />
             </div>
           </div>
@@ -343,24 +359,27 @@ export const Zagorje2022 = () => (
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:flex-wrap xl:items-center xl:justify-center xl:py-12 2xl:justify-between 3xl:py-24">
             <div className="image-container image-container-w-half pt-12 pb-8 xl:py-0">
-              <img
+              <Image
                 className="image image-two_line_landscape-size-xl rounded-lg"
-                src={images.Kumrovec.src}
+                src={images.Kumrovec}
                 alt="Kumrovec"
+                layout="fill"
               />
             </div>
             <div className="image-container image-container-w-half">
-              <img
+              <Image
                 className="image image-two_line_landscape-size-xl rounded-lg"
-                src={images.Kumrovec3.src}
+                src={images.Kumrovec3}
                 alt="Kumrovec"
+                layout="fill"
               />
             </div>
             <div className="image-container image-container-w-half pb-12 pt-8 xl:py-0">
-              <img
+              <Image
                 className="image image-two_line_landscape-size-xl rounded-lg"
-                src={images.Kumrovec4.src}
+                src={images.Kumrovec4}
                 alt="Kumrovec"
+                layout="fill"
               />
             </div>
           </div>
@@ -380,10 +399,11 @@ export const Zagorje2022 = () => (
             </p>
           </span>
           <div className="image-container pt-12 xl:max-w-[35%]">
-            <img
+            <Image
               className="image rounded-lg"
-              src={images.RandomImg.src}
+              src={images.RandomImg}
               alt="Lora"
+              layout="fill"
             />
           </div>
         </div>
