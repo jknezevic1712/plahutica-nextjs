@@ -23,10 +23,12 @@ const Banner: React.FC = () => {
   return (
     <div className="h-[65vh] w-full">
       <div className="relative h-full w-full">
-        <img
+        <Image
           className="h-full w-full bg-cover bg-center object-contain md:object-cover"
           src={grabBannerUrl()}
           alt=""
+          layout="fill"
+          priority
         />
       </div>
     </div>
