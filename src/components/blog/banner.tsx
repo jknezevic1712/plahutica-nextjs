@@ -24,6 +24,10 @@ const Banner: React.FC = () => {
     <div className="h-[65vh] w-full">
       <div className="relative h-full w-full">
         <Image
+          blurDataURL={
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+          }
+          placeholder="blur"
           className="h-full w-full bg-cover bg-center object-contain md:object-cover"
           src={grabBannerUrl()}
           alt=""

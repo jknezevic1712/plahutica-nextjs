@@ -39,6 +39,10 @@ const AuxiliaryIcon = ({ title, excursionIcon, iconType }: BlogIconProps) => {
       <h4 className="flex w-full items-center justify-center py-12">
         <div className="icon-container">
           <Image
+            blurDataURL={
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+            }
+            placeholder="blur"
             className="icon rounded-lg"
             src={getIconImg(iconType)}
             alt={`${iconType} icon`}
@@ -56,6 +60,10 @@ const AuxiliaryIcon = ({ title, excursionIcon, iconType }: BlogIconProps) => {
     <h2 className="flex w-fit items-center justify-center pb-12">
       <div className="icon-container">
         <Image
+          blurDataURL={
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+          }
+          placeholder="blur"
           className="icon rounded-lg"
           src={getIconImg(iconType)}
           alt={`${iconType} icon`}

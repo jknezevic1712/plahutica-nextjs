@@ -196,6 +196,10 @@ export const IstriaRoadTrip2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
             <Image
+              blurDataURL={
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+              }
+              placeholder="blur"
               className="image rounded-lg"
               src={images.RestaurantFuria.src}
               alt="Restaurant Furia"
@@ -221,6 +225,10 @@ export const IstriaRoadTrip2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
             <Image
+              blurDataURL={
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+              }
+              placeholder="blur"
               className="image rounded-lg"
               src={images.RestaurantJupiter.src}
               alt="Restaurant Jupiter"
@@ -248,6 +256,10 @@ export const IstriaRoadTrip2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.LoungeBar.src}
                 alt="Lounge Bar"
@@ -256,6 +268,10 @@ export const IstriaRoadTrip2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.LoungeBar2.src}
                 alt="Lounge Bar 2"
@@ -292,6 +308,10 @@ export const IstriaRoadTrip2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
             <Image
+              blurDataURL={
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+              }
+              placeholder="blur"
               className="image rounded-lg"
               src={images.SerenyIceCreamShop.src}
               alt="Sereny Ice Cream Shop"
@@ -331,6 +351,10 @@ export const IstriaRoadTrip2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.GortanovaUvala.src}
                 alt="Gortanova Uvala"
@@ -339,6 +363,10 @@ export const IstriaRoadTrip2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.GortanovaUvala2.src}
                 alt="Gortanova Uvala 2"
@@ -378,6 +406,10 @@ export const IstriaRoadTrip2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
             <Image
+              blurDataURL={
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+              }
+              placeholder="blur"
               className="image rounded-lg"
               src={images.CanyonVerudela.src}
               alt="Canyon Verudela"
@@ -421,6 +453,10 @@ export const IstriaRoadTrip2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl min-width-70 rounded-lg"
                 src={images.GaleboveStijene.src}
                 alt="Galebove Stijene"
@@ -429,6 +465,10 @@ export const IstriaRoadTrip2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.GaleboveStijene2.src}
                 layout="fill"
@@ -452,6 +492,10 @@ export const IstriaRoadTrip2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
             <Image
+              blurDataURL={
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+              }
+              placeholder="blur"
               className="image rounded-lg"
               src={images.CiklonskaPlaza.src}
               alt="Ciklonska Plaza"
@@ -496,6 +540,10 @@ export const IstriaRoadTrip2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl min-width-70 rounded-lg"
                 src={images.Colosseum2.src}
                 alt="Colosseum"
@@ -504,6 +552,10 @@ export const IstriaRoadTrip2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.Colosseum3.src}
                 alt="Colosseum 2"
@@ -525,6 +577,10 @@ export const IstriaRoadTrip2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
             <Image
+              blurDataURL={
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+              }
+              placeholder="blur"
               className="image rounded-lg"
               src={images.ArchOfSergii.src}
               alt="Arch of Sergii"
@@ -547,6 +603,10 @@ export const IstriaRoadTrip2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
             <Image
+              blurDataURL={
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+              }
+              placeholder="blur"
               className="image rounded-lg"
               src={images.TempleOfAugustus.src}
               alt="Temple of Augustus"
@@ -572,6 +632,10 @@ export const IstriaRoadTrip2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.RandomStreet.src}
                 alt="Beautiful street on Forum"
@@ -580,6 +644,10 @@ export const IstriaRoadTrip2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.RandomStreet2.src}
                 alt="Beautiful street on Forum 2"
@@ -602,6 +670,10 @@ export const IstriaRoadTrip2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
             <Image
+              blurDataURL={
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+              }
+              placeholder="blur"
               className="image rounded-lg"
               src={images.DvojnaVrata.src}
               alt="Dvojna Vrata"
@@ -636,6 +708,10 @@ export const IstriaRoadTrip2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
             <Image
+              blurDataURL={
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+              }
+              placeholder="blur"
               className="image rounded-lg"
               src={images.SvjetleciDivovi.src}
               alt="Svjetleci Divovi"
@@ -658,6 +734,10 @@ export const IstriaRoadTrip2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.JamesJoyce.src}
                 alt="James Joyce"
@@ -666,6 +746,10 @@ export const IstriaRoadTrip2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.JamesJoyce2.src}
                 alt="James Joyce 2"
@@ -732,6 +816,10 @@ export const IstriaRoadTrip2022 = () => (
             </span>
             <div className="image-container py-12 xl:max-w-[40%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image rounded-lg"
                 src={images.Labin.src}
                 alt="Labin"
@@ -780,6 +868,10 @@ export const IstriaRoadTrip2022 = () => (
               </span>
               <div className="image-container py-12 xl:max-w-[40%] 3xl:py-24">
                 <Image
+                  blurDataURL={
+                    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                  }
+                  placeholder="blur"
                   className="image rounded-lg"
                   src={images.Labin2.src}
                   alt="Gallery Alvona & Negri palace"
@@ -800,6 +892,10 @@ export const IstriaRoadTrip2022 = () => (
               </span>
               <div className="image-container py-12 xl:max-w-[40%] 3xl:py-24">
                 <Image
+                  blurDataURL={
+                    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                  }
+                  placeholder="blur"
                   className="image rounded-lg"
                   src={images.VidikovacFortica.src}
                   alt="Vidikovac Fortica"
@@ -820,6 +916,10 @@ export const IstriaRoadTrip2022 = () => (
               </span>
               <div className="image-container py-12 xl:max-w-[40%] 3xl:py-24">
                 <Image
+                  blurDataURL={
+                    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                  }
+                  placeholder="blur"
                   className="image rounded-lg"
                   src={images.CrkvaRodenjaBlazeneDjeviceMarije.src}
                   alt="Crkva Rođenja Blažene Djevice Marije"
@@ -845,6 +945,10 @@ export const IstriaRoadTrip2022 = () => (
               <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
                 <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
                   <Image
+                    blurDataURL={
+                      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                    }
+                    placeholder="blur"
                     className="image image-two_line-size-xl rounded-lg"
                     src={images.BattialaLazzariniPalace.src}
                     alt="Battiala Lazzarini Palace"
@@ -853,6 +957,10 @@ export const IstriaRoadTrip2022 = () => (
                 </div>
                 <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
                   <Image
+                    blurDataURL={
+                      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                    }
+                    placeholder="blur"
                     className="image image-two_line-size-xl rounded-lg"
                     src={images.BattialaLazzariniPalace2.src}
                     alt="Battiala Lazzarini Palace 2"
@@ -896,6 +1004,10 @@ export const IstriaRoadTrip2022 = () => (
               <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
                 <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
                   <Image
+                    blurDataURL={
+                      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                    }
+                    placeholder="blur"
                     className="image image-two_line-size-xl rounded-lg"
                     src={images.NarodniMuzejLabin.src}
                     alt="Narodni Muzej Labin"
@@ -904,6 +1016,10 @@ export const IstriaRoadTrip2022 = () => (
                 </div>
                 <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
                   <Image
+                    blurDataURL={
+                      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                    }
+                    placeholder="blur"
                     className="image image-two_line-size-xl rounded-lg"
                     src={images.NarodniMuzejLabin2.src}
                     alt="Narodni Muzej Labin"
@@ -912,6 +1028,10 @@ export const IstriaRoadTrip2022 = () => (
                 </div>
                 <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
                   <Image
+                    blurDataURL={
+                      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                    }
+                    placeholder="blur"
                     className="image image-two_line-size-xl rounded-lg"
                     src={images.NarodniMuzejLabin3.src}
                     alt="Narodni Muzej Labin"
@@ -957,6 +1077,10 @@ export const IstriaRoadTrip2022 = () => (
               </span>
               <div className="image-container py-12 xl:max-w-[40%] 3xl:py-24">
                 <Image
+                  blurDataURL={
+                    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                  }
+                  placeholder="blur"
                   className="image rounded-lg"
                   src={images.ProzoriLabinskihLegendi.src}
                   alt="Prozori Labinskih Legendi"
@@ -997,6 +1121,10 @@ export const IstriaRoadTrip2022 = () => (
               </span>
               <div className="image-container py-12 xl:max-w-[40%] 3xl:py-24">
                 <Image
+                  blurDataURL={
+                    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                  }
+                  placeholder="blur"
                   className="image rounded-lg"
                   src={images.PizzeriaRumore.src}
                   alt="Pizzeria Rumore"
@@ -1041,6 +1169,10 @@ export const IstriaRoadTrip2022 = () => (
             <div className="xl:flex xl:h-full xl:w-full xl:items-end xl:justify-between xl:py-12 3xl:py-24">
               <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
                 <Image
+                  blurDataURL={
+                    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                  }
+                  placeholder="blur"
                   className="image image-two_line-size-xl rounded-lg"
                   src={images.RtKamenjak.src}
                   alt="Rt Kamenjak"
@@ -1049,6 +1181,10 @@ export const IstriaRoadTrip2022 = () => (
               </div>
               <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
                 <Image
+                  blurDataURL={
+                    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                  }
+                  placeholder="blur"
                   className="image image-two_line-size-xl rounded-lg"
                   src={images.SafariBar4.src}
                   alt="Safari Bar 4"
@@ -1057,6 +1193,10 @@ export const IstriaRoadTrip2022 = () => (
               </div>
               <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
                 <Image
+                  blurDataURL={
+                    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                  }
+                  placeholder="blur"
                   className="image image-two_line-size-xl rounded-lg"
                   src={images.RtKamenjak3.src}
                   alt="Rt Kamenjak 3"
@@ -1114,6 +1254,10 @@ export const IstriaRoadTrip2022 = () => (
               <div className="xl:flex xl:h-full xl:w-full xl:items-end xl:justify-between xl:py-12 3xl:py-24">
                 <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
                   <Image
+                    blurDataURL={
+                      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                    }
+                    placeholder="blur"
                     className="image image-two_line-size-xl rounded-lg"
                     src={images.RadovicaBeach.src}
                     alt="Radovica Beach"
@@ -1122,6 +1266,10 @@ export const IstriaRoadTrip2022 = () => (
                 </div>
                 <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
                   <Image
+                    blurDataURL={
+                      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                    }
+                    placeholder="blur"
                     className="image image-two_line-size-xl rounded-lg"
                     src={images.RadovicaBeach2.src}
                     alt="Radovica Beach 2"
@@ -1130,6 +1278,10 @@ export const IstriaRoadTrip2022 = () => (
                 </div>
                 <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
                   <Image
+                    blurDataURL={
+                      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                    }
+                    placeholder="blur"
                     className="image image-two_line-size-xl rounded-lg"
                     src={images.RadovicaBeach3.src}
                     alt="Radovica Beach 3"
@@ -1162,6 +1314,10 @@ export const IstriaRoadTrip2022 = () => (
               <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
                 <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
                   <Image
+                    blurDataURL={
+                      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                    }
+                    placeholder="blur"
                     className="image image-two_line-size-xl rounded-lg"
                     src={images.PlovanijeBeach.src}
                     alt="Plovanije Beach"
@@ -1170,6 +1326,10 @@ export const IstriaRoadTrip2022 = () => (
                 </div>
                 <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
                   <Image
+                    blurDataURL={
+                      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                    }
+                    placeholder="blur"
                     className="image image-two_line-size-xl rounded-lg"
                     src={images.PlovanijeBeach2.src}
                     alt="Plovanije Beach"
@@ -1193,6 +1353,10 @@ export const IstriaRoadTrip2022 = () => (
               <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-between xl:py-12 3xl:py-24">
                 <div className="image-container py-12 xl:max-w-[45%] 3xl:py-24">
                   <Image
+                    blurDataURL={
+                      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                    }
+                    placeholder="blur"
                     className="image image-two_line-size-xl rounded-lg"
                     src={images.NjiveBeach.src}
                     alt="Njive Beach"
@@ -1201,6 +1365,10 @@ export const IstriaRoadTrip2022 = () => (
                 </div>
                 <div className="image-container py-12 xl:max-w-[45%] 3xl:py-24">
                   <Image
+                    blurDataURL={
+                      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                    }
+                    placeholder="blur"
                     className="image image-two_line-size-xl rounded-lg"
                     src={images.NjiveBeach2.src}
                     alt="Njive Beach"
@@ -1223,6 +1391,10 @@ export const IstriaRoadTrip2022 = () => (
               </span>
               <div className="image-container py-12 xl:max-w-[40%] 3xl:py-24">
                 <Image
+                  blurDataURL={
+                    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                  }
+                  placeholder="blur"
                   className="image rounded-lg"
                   src={images.UvalaPortic.src}
                   alt="Uvala Portić"
@@ -1262,6 +1434,10 @@ export const IstriaRoadTrip2022 = () => (
               <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-between xl:py-12 3xl:py-24">
                 <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
                   <Image
+                    blurDataURL={
+                      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                    }
+                    placeholder="blur"
                     className="image image-two_line-size-xl rounded-lg"
                     src={images.SafariBar.src}
                     alt="Safari Bar"
@@ -1270,6 +1446,10 @@ export const IstriaRoadTrip2022 = () => (
                 </div>
                 <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
                   <Image
+                    blurDataURL={
+                      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                    }
+                    placeholder="blur"
                     className="image image-two_line-size-xl rounded-lg"
                     src={images.SafariBar2.src}
                     alt="Safari Bar 2"
@@ -1278,6 +1458,10 @@ export const IstriaRoadTrip2022 = () => (
                 </div>
                 <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
                   <Image
+                    blurDataURL={
+                      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                    }
+                    placeholder="blur"
                     className="image image-two_line-size-xl rounded-lg"
                     src={images.SafariBar3.src}
                     alt="Safari Bar 3"
@@ -1329,6 +1513,10 @@ export const IstriaRoadTrip2022 = () => (
             <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-between xl:py-12 3xl:py-24">
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
                 <Image
+                  blurDataURL={
+                    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                  }
+                  placeholder="blur"
                   className="image image-two_line-size-xl rounded-lg"
                   src={images.PijanaPruga.src}
                   alt="Pijana Pruga"
@@ -1337,6 +1525,10 @@ export const IstriaRoadTrip2022 = () => (
               </div>
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
                 <Image
+                  blurDataURL={
+                    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                  }
+                  placeholder="blur"
                   className="image image-two_line-size-xl rounded-lg"
                   src={images.CepickoPoljePijanaPruga.src}
                   alt="Cepicko Polje Pijana Pruga"
@@ -1368,6 +1560,10 @@ export const IstriaRoadTrip2022 = () => (
             </span>
             <div className="image-container py-12 xl:max-w-[40%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image rounded-lg"
                 src={images.Kayaks.src}
                 alt="Kayaks"
@@ -1389,6 +1585,10 @@ export const IstriaRoadTrip2022 = () => (
             </span>
             <div className="image-container py-12 xl:max-w-[40%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image rounded-lg"
                 src={images.Kayaks2.src}
                 alt="Kayaks 2"
@@ -1429,6 +1629,10 @@ export const IstriaRoadTrip2022 = () => (
             </span>
             <div className="image-container py-12 xl:max-w-[40%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image rounded-lg"
                 src={images.Kayaks3.src}
                 alt="Kayaks 3"

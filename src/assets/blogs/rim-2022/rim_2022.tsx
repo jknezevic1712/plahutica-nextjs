@@ -42,6 +42,10 @@ export const Rim2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
             <Image
+              blurDataURL={
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+              }
+              placeholder="blur"
               className="image rounded-lg"
               src={images.RandomStreet.src}
               alt="Random Street"
@@ -64,6 +68,10 @@ export const Rim2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
             <Image
+              blurDataURL={
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+              }
+              placeholder="blur"
               className="image rounded-lg"
               src={images.RandomStreet2.src}
               alt="Random Street"
@@ -119,6 +127,10 @@ export const Rim2022 = () => (
             </span>
             <div className="image-container py-12 xl:max-w-[40%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image rounded-lg"
                 src={images.RandomStreet3.src}
                 alt="Random Street"
@@ -166,6 +178,10 @@ export const Rim2022 = () => (
         </span>
         <div className="image-container py-12 xl:max-w-[40%] 3xl:py-24">
           <Image
+            blurDataURL={
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+            }
+            placeholder="blur"
             className="image rounded-lg"
             src={images.RandomStreet4.src}
             alt="Random Street"
@@ -217,6 +233,10 @@ export const Rim2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
             <Image
+              blurDataURL={
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+              }
+              placeholder="blur"
               className="image rounded-lg"
               src={images.Avion1.src}
               alt="Slika iz aviona"
@@ -241,6 +261,10 @@ export const Rim2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
             <Image
+              blurDataURL={
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+              }
+              placeholder="blur"
               className="image rounded-lg"
               src={images.Avion3.src}
               alt="Slika iz aviona"
@@ -279,6 +303,10 @@ export const Rim2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
             <Image
+              blurDataURL={
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+              }
+              placeholder="blur"
               className="image rounded-lg"
               src={images.Avion2.src}
               alt="Slika iz aviona"
@@ -337,6 +365,10 @@ export const Rim2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
             <Image
+              blurDataURL={
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+              }
+              placeholder="blur"
               className="image rounded-lg"
               src={images.PastificioGuerra.src}
               alt="Pastificio Guerra"
@@ -369,6 +401,10 @@ export const Rim2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
             <Image
+              blurDataURL={
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+              }
+              placeholder="blur"
               className="image rounded-lg"
               src={images.Tonarello.src}
               alt="Tonarello"
@@ -408,6 +444,10 @@ export const Rim2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.Pompi.src}
                 alt="Pompi"
@@ -416,6 +456,10 @@ export const Rim2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.Pompi2.src}
                 alt="Pompi"
@@ -451,6 +495,10 @@ export const Rim2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
             <Image
+              blurDataURL={
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+              }
+              placeholder="blur"
               className="image rounded-lg"
               src={images.AllAnticoVinaio.src}
               alt="All'Antico Vinaio"
@@ -480,6 +528,10 @@ export const Rim2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
             <Image
+              blurDataURL={
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+              }
+              placeholder="blur"
               className="image rounded-lg"
               src={images.Vulio.src}
               alt="Vulio"
@@ -510,6 +562,10 @@ export const Rim2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.Pinsa.src}
                 alt="Pinsa"
@@ -518,6 +574,10 @@ export const Rim2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.Pinsa2.src}
                 alt="Pinsa"
@@ -554,6 +614,10 @@ export const Rim2022 = () => (
             <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
               <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
                 <Image
+                  blurDataURL={
+                    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                  }
+                  placeholder="blur"
                   className="image image-two_line-size-xl rounded-lg"
                   src={images.Koloseum.src}
                   alt="Koloseum"
@@ -562,6 +626,10 @@ export const Rim2022 = () => (
               </div>
               <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
                 <Image
+                  blurDataURL={
+                    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                  }
+                  placeholder="blur"
                   className="image image-two_line-size-xl rounded-lg"
                   src={images.Koloseum2.src}
                   alt="Koloseum"
@@ -601,6 +669,10 @@ export const Rim2022 = () => (
             <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
               <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
                 <Image
+                  blurDataURL={
+                    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                  }
+                  placeholder="blur"
                   className="image image-two_line-size-xl rounded-lg"
                   src={images.Koloseum3.src}
                   alt="Koloseum"
@@ -609,6 +681,10 @@ export const Rim2022 = () => (
               </div>
               <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
                 <Image
+                  blurDataURL={
+                    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                  }
+                  placeholder="blur"
                   className="image image-two_line-size-xl rounded-lg"
                   src={images.Koloseum4.src}
                   alt="Koloseum"
@@ -634,6 +710,10 @@ export const Rim2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.Palatin.src}
                 alt="Palatin"
@@ -642,6 +722,10 @@ export const Rim2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.Palatin2.src}
                 alt="Palatin"
@@ -668,6 +752,10 @@ export const Rim2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.RimskiForum.src}
                 alt="Rimski Forum"
@@ -676,6 +764,10 @@ export const Rim2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.RimskiForum3.src}
                 alt="Rimski Forum"
@@ -684,6 +776,10 @@ export const Rim2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.RimskiForum2.src}
                 alt="Rimski Forum"
@@ -720,6 +816,10 @@ export const Rim2022 = () => (
             <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
                 <Image
+                  blurDataURL={
+                    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                  }
+                  placeholder="blur"
                   className="image image-two_line-size-xl rounded-lg"
                   src={images.FontanaDiTrevi2.src}
                   alt="Fontana Di Trevi"
@@ -728,6 +828,10 @@ export const Rim2022 = () => (
               </div>
               <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
                 <Image
+                  blurDataURL={
+                    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                  }
+                  placeholder="blur"
                   className="image image-two_line-size-xl rounded-lg"
                   src={images.FontanaDiTrevi.src}
                   alt="Fontana Di Trevi"
@@ -736,6 +840,10 @@ export const Rim2022 = () => (
               </div>
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
                 <Image
+                  blurDataURL={
+                    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                  }
+                  placeholder="blur"
                   className="image image-two_line-size-xl rounded-lg"
                   src={images.FontanaDiTrevi3.src}
                   alt="Fontana Di Trevi"
@@ -761,6 +869,10 @@ export const Rim2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
             <Image
+              blurDataURL={
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+              }
+              placeholder="blur"
               className="image rounded-lg"
               src={images.Panteon.src}
               alt="Panteon"
@@ -785,6 +897,10 @@ export const Rim2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.PiazzaNavona.src}
                 alt="Piazza Navona"
@@ -793,6 +909,10 @@ export const Rim2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.PiazzaNavona2.src}
                 alt="Piazza Navona"
@@ -823,6 +943,10 @@ export const Rim2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.Vatikan.src}
                 alt="Vatikan"
@@ -831,6 +955,10 @@ export const Rim2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.Vatikan2.src}
                 alt="Vatikan"
@@ -859,6 +987,10 @@ export const Rim2022 = () => (
             <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
                 <Image
+                  blurDataURL={
+                    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                  }
+                  placeholder="blur"
                   className="image image-two_line-size-xl rounded-lg"
                   src={images.VatikanskiMuzej.src}
                   alt="Vatikanski muzeji"
@@ -867,6 +999,10 @@ export const Rim2022 = () => (
               </div>
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
                 <Image
+                  blurDataURL={
+                    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                  }
+                  placeholder="blur"
                   className="image image-two_line-size-xl rounded-lg"
                   src={images.VatikanskiMuzej3.src}
                   alt="Vatikanski muzeji"
@@ -898,6 +1034,10 @@ export const Rim2022 = () => (
             <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
                 <Image
+                  blurDataURL={
+                    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                  }
+                  placeholder="blur"
                   className="image image-two_line-size-xl rounded-lg"
                   src={images.VatikanskiMuzej2.src}
                   alt="Vatikanski muzeji"
@@ -906,6 +1046,10 @@ export const Rim2022 = () => (
               </div>
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
                 <Image
+                  blurDataURL={
+                    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                  }
+                  placeholder="blur"
                   className="image image-two_line-size-xl rounded-lg"
                   src={images.VatikanskiMuzej4.src}
                   alt="Vatikanski muzeji"
@@ -945,6 +1089,10 @@ export const Rim2022 = () => (
             <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
                 <Image
+                  blurDataURL={
+                    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                  }
+                  placeholder="blur"
                   className="image image-two_line-size-xl rounded-lg"
                   src={images.PiazzaDiPopolo3.src}
                   alt="Piazza Di Popolo"
@@ -953,6 +1101,10 @@ export const Rim2022 = () => (
               </div>
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
                 <Image
+                  blurDataURL={
+                    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                  }
+                  placeholder="blur"
                   className="image image-two_line-size-xl rounded-lg"
                   src={images.PiazzaDiPopolo2.src}
                   alt="Piazza Di Popolo"
@@ -975,6 +1127,10 @@ export const Rim2022 = () => (
             <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
                 <Image
+                  blurDataURL={
+                    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                  }
+                  placeholder="blur"
                   className="image image-two_line-size-xl rounded-lg"
                   src={images.PiazzaDiPopolo.src}
                   alt="Piazza Di Popolo"
@@ -983,6 +1139,10 @@ export const Rim2022 = () => (
               </div>
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
                 <Image
+                  blurDataURL={
+                    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                  }
+                  placeholder="blur"
                   className="image image-two_line-size-xl rounded-lg"
                   src={images.PiazzaDiPopolo4.src}
                   alt="Piazza Di Popolo"
@@ -1010,6 +1170,10 @@ export const Rim2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.VillaBorghese.src}
                 alt="Villa Borghese"
@@ -1018,6 +1182,10 @@ export const Rim2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.VillaBorghese2.src}
                 alt="Villa Borghese"
@@ -1048,6 +1216,10 @@ export const Rim2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.PiazzaDiSpagna2.src}
                 alt="Piazza Di Spagna"
@@ -1056,6 +1228,10 @@ export const Rim2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.PiazzaDiSpagna.src}
                 alt="Piazza Di Spagna"
@@ -1064,6 +1240,10 @@ export const Rim2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.PiazzaDiSpagna3.src}
                 alt="Piazza Di Spagna"
@@ -1086,6 +1266,10 @@ export const Rim2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
             <Image
+              blurDataURL={
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+              }
+              placeholder="blur"
               className="image rounded-lg"
               src={images.StAndreaDellaValle.src}
               alt="Bazilika di Sant'Andrea della Valle"
@@ -1112,6 +1296,10 @@ export const Rim2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.Trastevere.src}
                 alt="Trastevere"
@@ -1120,6 +1308,10 @@ export const Rim2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.Trastevere3.src}
                 alt="Trastevere"
@@ -1128,6 +1320,10 @@ export const Rim2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.Trastevere2.src}
                 alt="Trastevere"
@@ -1157,6 +1353,10 @@ export const Rim2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.Trznica2.src}
                 alt="Trznica"
@@ -1165,6 +1365,10 @@ export const Rim2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.Trznica.src}
                 alt="Trznica"
@@ -1195,6 +1399,10 @@ export const Rim2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.TvrdavaStAngelo.src}
                 alt="Tvrdava St Angelo"
@@ -1203,6 +1411,10 @@ export const Rim2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.TvrdavaStAngelo2.src}
                 alt="Tvrdava St Angelo"
@@ -1231,6 +1443,10 @@ export const Rim2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.VittorioEmanuele.src}
                 alt="Spomenik Viktoru Emanuelu II."
@@ -1239,6 +1455,10 @@ export const Rim2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.VittorioEmanuele2.src}
                 alt="Spomenik Viktoru Emanuelu II."

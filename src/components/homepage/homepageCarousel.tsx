@@ -55,6 +55,10 @@ const HomepageCarousel = () => {
               <Link href={`/blog/${blogId}`}>
                 <div className="image-container">
                   <Image
+                    blurDataURL={
+                      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                    }
+                    placeholder="blur"
                     className="image h-full w-full cursor-pointer rounded-lg transition-all lg:opacity-95 lg:hover:opacity-100"
                     src={url.src}
                     alt=""

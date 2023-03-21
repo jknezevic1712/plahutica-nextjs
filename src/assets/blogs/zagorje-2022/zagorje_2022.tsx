@@ -39,6 +39,10 @@ export const Zagorje2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
             <Image
+              blurDataURL={
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+              }
+              placeholder="blur"
               className="image rounded-lg"
               src={images.RandomImg2}
               alt="Vinogradi"
@@ -66,6 +70,10 @@ export const Zagorje2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
             <Image
+              blurDataURL={
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+              }
+              placeholder="blur"
               className="image rounded-lg"
               src={images.Kumrovec2}
               alt="Kumrovec"
@@ -89,6 +97,10 @@ export const Zagorje2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-between xl:py-12 3xl:py-24">
             <div className="image-container pt-12 pb-4 xl:py-0">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.VelikiTabor2}
                 alt="Veliki Tabor"
@@ -97,6 +109,10 @@ export const Zagorje2022 = () => (
             </div>
             <div className="image-container pb-12 pt-4 xl:py-0">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.VelikiTabor9}
                 alt="Veliki Tabor"
@@ -126,6 +142,10 @@ export const Zagorje2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
             <Image
+              blurDataURL={
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+              }
+              placeholder="blur"
               className="image rounded-lg"
               src={images.VelikiTabor}
               alt="Veliki Tabor"
@@ -148,6 +168,10 @@ export const Zagorje2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
             <Image
+              blurDataURL={
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+              }
+              placeholder="blur"
               className="image rounded-lg"
               src={images.VelikiTabor3}
               alt="Veliki Tabor"
@@ -171,6 +195,10 @@ export const Zagorje2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
             <Image
+              blurDataURL={
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+              }
+              placeholder="blur"
               className="image rounded-lg"
               src={images.VelikiTabor8}
               alt="Veliki Tabor"
@@ -201,6 +229,10 @@ export const Zagorje2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-between xl:py-12 3xl:py-24">
             <div className="image-container pt-12 pb-4 xl:py-0">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.VelikiTabor6}
                 alt="Veliki Tabor"
@@ -209,6 +241,10 @@ export const Zagorje2022 = () => (
             </div>
             <div className="image-container pb-12 pt-4 xl:py-0">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.VelikiTabor7}
                 alt="Veliki Tabor"
@@ -239,6 +275,10 @@ export const Zagorje2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-between xl:py-12 3xl:py-24">
             <div className="image-container pt-12 pb-4 xl:py-0">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.GresnaGorica}
                 alt="Grešna Gorica"
@@ -247,6 +287,10 @@ export const Zagorje2022 = () => (
             </div>
             <div className="image-container pb-12 pt-4 xl:py-0">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.GresnaGorica2}
                 alt="Grešna Gorica"
@@ -267,6 +311,10 @@ export const Zagorje2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
             <Image
+              blurDataURL={
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+              }
+              placeholder="blur"
               className="image rounded-lg"
               src={images.GresnaGorica3}
               alt="Grešna Gorica"
@@ -287,6 +335,10 @@ export const Zagorje2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
             <Image
+              blurDataURL={
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+              }
+              placeholder="blur"
               className="image rounded-lg"
               src={images.GresnaGorica7}
               alt="Grešna Gorica"
@@ -312,6 +364,10 @@ export const Zagorje2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-between xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:py-0">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.GresnaGorica5}
                 alt="Grešna Gorica"
@@ -320,6 +376,10 @@ export const Zagorje2022 = () => (
             </div>
             <div className="image-container">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.GresnaGorica4}
                 alt="Grešna Gorica"
@@ -328,6 +388,10 @@ export const Zagorje2022 = () => (
             </div>
             <div className="image-container py-12 xl:py-0">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line-size-xl rounded-lg"
                 src={images.GresnaGorica6}
                 alt="Grešna Gorica"
@@ -360,6 +424,10 @@ export const Zagorje2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:flex-wrap xl:items-center xl:justify-center xl:py-12 2xl:justify-between 3xl:py-24">
             <div className="image-container image-container-w-half pt-12 pb-8 xl:py-0">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line_landscape-size-xl rounded-lg"
                 src={images.Kumrovec}
                 alt="Kumrovec"
@@ -368,6 +436,10 @@ export const Zagorje2022 = () => (
             </div>
             <div className="image-container image-container-w-half">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line_landscape-size-xl rounded-lg"
                 src={images.Kumrovec3}
                 alt="Kumrovec"
@@ -376,6 +448,10 @@ export const Zagorje2022 = () => (
             </div>
             <div className="image-container image-container-w-half pb-12 pt-8 xl:py-0">
               <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
                 className="image image-two_line_landscape-size-xl rounded-lg"
                 src={images.Kumrovec4}
                 alt="Kumrovec"
@@ -400,6 +476,10 @@ export const Zagorje2022 = () => (
           </span>
           <div className="image-container pt-12 xl:max-w-[35%]">
             <Image
+              blurDataURL={
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+              }
+              placeholder="blur"
               className="image rounded-lg"
               src={images.RandomImg}
               alt="Lora"
