@@ -50,7 +50,7 @@ const HomepageCarousel = () => {
           return (
             <SwiperSlide
               key={blogId}
-              className="max-w-[14rem] md:max-w-[13.5rem] xl:max-w-[13rem] 2xl:max-w-[25rem] 3xl:max-w-[30rem]"
+              className="max-w-[8rem] md:max-w-[13.5rem] xl:max-w-[13rem] 2xl:max-w-[25rem] 3xl:max-w-[30rem]"
             >
               <Link href={`/blog/${blogId}`}>
                 <div className="image-container">
