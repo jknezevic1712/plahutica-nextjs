@@ -1,16 +1,16 @@
 import React from "react";
-import Image from "next/image";
+// import Image from "next/image";
 
 import { IconTypes } from "../../../../types/enums/icons";
 
-import CarImg from "assets/images/blogIcons/car.png";
-import BedImg from "assets/images/blogIcons/bed.png";
-import RestaurantImg from "assets/images/blogIcons/restaurant.png";
-import BeachImg from "assets/images/blogIcons/beach.png";
-import CameraImg from "assets/images/blogIcons/camera.png";
-import ExcursionsImg from "assets/images/blogIcons/excursions.png";
-import MoneyImg from "assets/images/blogIcons/money.png";
-import QuestionMarkImg from "assets/images/blogIcons/question.png";
+import CarImg from "assets/images/blogIcons/car.webp";
+import BedImg from "assets/images/blogIcons/bed.webp";
+import RestaurantImg from "assets/images/blogIcons/restaurant.webp";
+import BeachImg from "assets/images/blogIcons/beach.webp";
+import CameraImg from "assets/images/blogIcons/camera.webp";
+import ExcursionsImg from "assets/images/blogIcons/excursions.webp";
+import MoneyImg from "assets/images/blogIcons/money.webp";
+import QuestionMarkImg from "assets/images/blogIcons/question.webp";
 
 const getIconImg = (iconType: string) => {
   switch (iconType) {
@@ -38,15 +38,10 @@ const AuxiliaryIcon = ({ title, excursionIcon, iconType }: BlogIconProps) => {
     return (
       <h4 className="flex w-full items-center justify-center py-12">
         <div className="icon-container">
-          <Image
-            blurDataURL={
-              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
-            }
-            placeholder="blur"
+          <img
             className="icon rounded-lg"
             src={getIconImg(iconType)}
             alt={`${iconType} icon`}
-            layout="fill"
           />
         </div>
         <span className="ml-6 flex min-h-[50px] items-center justify-center font-plus-jakarta-sans text-2xl italic text-emerald-600 lg:text-3xl">
@@ -59,15 +54,10 @@ const AuxiliaryIcon = ({ title, excursionIcon, iconType }: BlogIconProps) => {
   return (
     <h2 className="flex w-fit items-center justify-center pb-12">
       <div className="icon-container">
-        <Image
-          blurDataURL={
-            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
-          }
-          placeholder="blur"
+        <img
           className="icon rounded-lg"
           src={getIconImg(iconType)}
           alt={`${iconType} icon`}
-          layout="fill"
         />
       </div>
       <span className="flex min-h-[50px] items-center justify-center pl-6 font-plus-jakarta-sans text-2xl italic text-emerald-600 md:text-3xl 2xl:text-4xl">
