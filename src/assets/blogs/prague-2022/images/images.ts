@@ -1,5 +1,6 @@
 import AstronomskiSat from "assets/blogs/prague-2022/images/astronomski-sat.webp";
 import AstronomskiSat2 from "assets/blogs/prague-2022/images/astronomski-sat-2.webp";
+import AstronomskiSat3 from "assets/blogs/prague-2022/images/astronomski-sat-3.webp";
 import BeerMuseum from "assets/blogs/prague-2022/images/beer-museum.webp";
 import BeerMuseum2 from "assets/blogs/prague-2022/images/beer-museum-2.webp";
 import FranzKafka from "assets/blogs/prague-2022/images/franz-kafka.webp";
@@ -62,6 +63,7 @@ import ZidovskaCetvrt2 from "assets/blogs/prague-2022/images/zidovska-cetvrt-2.w
 const images = {
   AstronomskiSat,
   AstronomskiSat2,
+  AstronomskiSat3,
   BeerMuseum,
   BeerMuseum2,
   FranzKafka,

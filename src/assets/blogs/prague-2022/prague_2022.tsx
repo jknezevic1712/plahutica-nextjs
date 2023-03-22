@@ -804,8 +804,8 @@ export const Prague2022 = () => (
           </div>
         </div>
 
-        <div className="flex h-full w-full flex-col items-center justify-center xl:flex-row xl:justify-between">
-          <span className="xl:w-2/3">
+        <div className="flex h-full w-full flex-col items-center justify-center">
+          <span>
             <h3 className="py-12 text-center font-plus-jakarta-sans text-lg font-bold italic tracking-wider md:text-start md:text-xl xl:text-2xl 3xl:text-2xl">
               Stari astronomski sat - Orloj
             </h3>
@@ -826,17 +826,31 @@ export const Prague2022 = () => (
               babilonsko vrijeme kod kojeg dani traju od zore do sumraka.
             </p>
           </span>
-          <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
-            <Image
-              blurDataURL={
-                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
-              }
-              placeholder="blur"
-              className="image rounded-lg"
-              src={images.AstronomskiSat2.src}
-              alt="Astronomski sat"
-              layout="fill"
-            />
+          <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
+            <div className="image-container py-12 xl:max-w-[45%] 3xl:py-24">
+              <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
+                className="image image-two_line-size-xl rounded-lg"
+                src={images.AstronomskiSat2.src}
+                alt="Astronomski sat"
+                layout="fill"
+              />
+            </div>
+            <div className="image-container py-12 xl:max-w-[45%] 3xl:py-24">
+              <Image
+                blurDataURL={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                }
+                placeholder="blur"
+                className="image image-two_line-size-xl rounded-lg"
+                src={images.AstronomskiSat3.src}
+                alt="Astronomski sat"
+                layout="fill"
+              />
+            </div>
           </div>
         </div>
 
