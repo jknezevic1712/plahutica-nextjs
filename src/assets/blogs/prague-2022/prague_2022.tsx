@@ -7,7 +7,7 @@ import images from "./images/images";
 
 export const Prague2022_Overview: BlogOverview = {
   title: "Prag",
-  description: "Smisliti neki opis",
+  description: "Doživljaji s najdražeg putovanja do sada",
 };
 
 export const Prague2022 = () => (
@@ -86,15 +86,17 @@ export const Prague2022 = () => (
             <span className="w-full xl:w-2/4">
               <ul className="px-4">
                 <li className="list-disc break-words py-4 indent-6 text-lg leading-8 md:text-xl md:leading-9 3xl:text-2xl 3xl:leading-relaxed">
-                  Najpoznatija crkva u Pragu - Tynska crkva, kao i neke druge
-                  znamenitosti poput Prašne brane i Karlovog mosta imaju
-                  specifičnu „crnkastu“ boju zbog industrijalizacije i
-                  onečišćenja koja je nekad bila vrlo izražena u Češkoj.
+                  Najpoznatija crkva u Pragu - <strong>Tynska crkva</strong>,
+                  kao i neke druge znamenitosti poput{" "}
+                  <strong>Prašne brane</strong> i{" "}
+                  <strong>Karlovog mosta</strong> imaju specifičnu „crnkastu“
+                  boju zbog industrijalizacije i onečišćenja koja je nekad bila
+                  vrlo izražena u Češkoj.
                 </li>
                 <li className="list-disc break-words py-4 indent-6 text-lg leading-8 md:text-xl md:leading-9 3xl:text-2xl 3xl:leading-relaxed">
-                  U Pragu se nalazi brdo Petrin s istoimenim vidikovcem koji je
-                  sagrađen po uzoru na Eiffelov toranj, ali je visok samo 60
-                  metara.
+                  U Pragu se nalazi <strong>brdo Petrin</strong> s istoimenim
+                  vidikovcem koji je sagrađen po uzoru na Eiffelov toranj, ali
+                  je visok samo 60 metara.
                 </li>
                 <li className="list-disc break-words py-4 indent-6 text-lg leading-8 md:text-xl md:leading-9 3xl:text-2xl 3xl:leading-relaxed">
                   Babuške se često prodaju kao suveniri što je ostavština
@@ -102,8 +104,8 @@ export const Prague2022 = () => (
                   ljuti jer babuške nisu njihov simbol, a turisti ih kupuju.
                 </li>
                 <li className="list-disc break-words py-4 indent-6 text-lg leading-8 md:text-xl md:leading-9 3xl:text-2xl 3xl:leading-relaxed">
-                  U Pragu se nalazi 3. najveći dvorski kompleks na svijetu -
-                  Praški grad koji je pod zaštitom UNESCO -a.
+                  U Pragu se nalazi 3. najveći dvorski kompleks na svijetu -{" "}
+                  <strong>Praški grad</strong> koji je pod zaštitom UNESCO -a.
                 </li>
                 <li className="list-disc break-words py-4 indent-6 text-lg leading-8 md:text-xl md:leading-9 3xl:text-2xl 3xl:leading-relaxed">
                   Stanovnici Praga konzumiraju najviše piva po stanovniku na
@@ -121,8 +123,8 @@ export const Prague2022 = () => (
                   umjesto vode u bazenima i kadama nalazi pivo.
                 </li>
                 <li className="list-disc break-words py-4 indent-6 text-lg leading-8 md:text-xl md:leading-9 3xl:text-2xl 3xl:leading-relaxed">
-                  U Pragu se nalazi najveći klub Središnje Europe - Karlovy
-                  Lázně.
+                  U Pragu se nalazi najveći klub Središnje Europe -{" "}
+                  <strong>Karlovy Lázně</strong>.
                 </li>
                 <li className="list-disc break-words py-4 indent-6 text-lg leading-8 md:text-xl md:leading-9 3xl:text-2xl 3xl:leading-relaxed">
                   Pragom teče najduža češka rijeka - Vltava.
@@ -192,10 +194,10 @@ export const Prague2022 = () => (
       <div className="flex h-full w-full flex-col items-center text-justify leading-6">
         <AuxiliaryIcon title="Smještaj" iconType={IconTypes.Bed} />
         <p className="w-full break-words pb-4 text-justify indent-6 text-lg leading-8 md:text-xl md:leading-9 2xl:leading-9 3xl:text-2xl 3xl:leading-relaxed">
-          Bili smo smješteni u hotelu Abito koji se nalazi u zoni gradskog
-          prijevoza na udaljenosti 20-tak minuta od centra Praga i dobra je
-          opcija ako putujete na budžetu. Hotel je sasvim u redu za prespavati,
-          a velika mu je prednost bogat i raznovrstan doručak.
+          Bili smo smješteni u <strong>hotelu Abito</strong> koji se nalazi u
+          zoni gradskog prijevoza na udaljenosti 20-tak minuta od centra Praga i
+          dobra je opcija ako putujete na budžetu. Hotel je sasvim u redu za
+          prespavati, a velika mu je prednost bogat i raznovrstan doručak.
         </p>
       </div>
     </div>
@@ -214,8 +216,8 @@ export const Prague2022 = () => (
       <div className="flex h-full w-full flex-col items-center text-justify leading-6">
         <AuxiliaryIcon title="Mjenjačnica" iconType={IconTypes.Money} />
         <p className="w-full break-words pb-4 text-justify indent-6 text-lg leading-8 md:text-xl md:leading-9 2xl:leading-9 3xl:text-2xl 3xl:leading-relaxed">
-          Mi smo novac mijenjali u mjenjačnici u Panskoj ulici 4. Mijenjali smo
-          eure u krune.
+          Mi smo novac mijenjali u mjenjačnici u{" "}
+          <strong>Panskoj ulici 4</strong>. Mijenjali smo eure u krune.
         </p>
       </div>
     </div>
@@ -382,12 +384,13 @@ export const Prague2022 = () => (
               Ovaj restoran posjetili smo u sklopu agencije i bio je prezentiran
               kao tradicionalna češka večera za 20€. U tu cijenu uključeno je
               piće po izboru, juha, glavno jelo i desert. Za piće smo uzeli
-              pivu, povrtna krem juha je bila ukusna, ali glavno jelo i desert
-              su veliko razočarenje. Kao glavno jelo dobili smo doslovno 2 mala
-              komadića mesa, malo zelja i okruglica od krumpira i kruha, a za
-              desert kuglicu sladoleda. Kasnije nam je bilo žao što smo uzeli
-              ovu večeru jer se nikako ne isplati. Možda je restoran sam po sebi
-              dobar, ali po meni ovaj omjer cijene i kvalitete je vrlo loš.
+              pivu, dok smo za jelo dobili povrtnu krem juhu koja je bila
+              ukusna, ali glavno jelo i desert bili su veliko razočarenje. Kao
+              glavno jelo dobili smo doslovno 2 mala komadića mesa, malo zelja i
+              okruglica od krumpira i kruha, a za desert kuglicu sladoleda.
+              Kasnije nam je bilo žao što smo uzeli ovu večeru jer se nikako ne
+              isplati. Možda je restoran sam po sebi dobar, ali po meni ovaj
+              omjer cijene i kvalitete je vrlo loš.
             </p>
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
@@ -424,14 +427,15 @@ export const Prague2022 = () => (
           </h3>
           <p className="w-full break-words pb-4 text-justify indent-6 text-lg leading-8 md:text-xl md:leading-9 2xl:leading-9 3xl:text-2xl 3xl:leading-relaxed">
             Restoran i kafić u istoimenom hotelu koji se nalazi u centru starog
-            grada i s njegove terase pruža se pogled na trg Staromestske namesti
-            i Tynsku crkvu. Imali smo u planu posjetiti ga, ali je bila velika
-            gužva i nismo htjeli gubiti vrijeme čekajući u redu, tako da vam
-            preporučam da dođete odmah u 9 ujutro kada se otvara kako biste
-            izbjegli gužve. Cijene su nešto više od standardnih cijena u Pragu i
-            po recenzijama ni osoblje nije baš preljubazno, ali ako želite
-            lijepi fotografiju s nekim od glavnih znamenitosti Praga svakako
-            preporučam posjetu.
+            grada i s njegove terase pruža se pogled na{" "}
+            <strong>trg Staromestske namesti</strong> i{" "}
+            <strong>Tynsku crkvu</strong>. Imali smo u planu posjetiti ga, ali
+            je bila velika gužva i nismo htjeli gubiti vrijeme čekajući u redu,
+            tako da vam preporučam da dođete odmah u 9 ujutro kada se otvara
+            kako biste izbjegli gužve. Cijene su nešto više od standardnih
+            cijena u Pragu i po recenzijama ni osoblje nije baš preljubazno, ali
+            ako želite lijepi fotografiju s nekim od glavnih znamenitosti Praga
+            svakako preporučam posjetu.
           </p>
         </div>
 
@@ -450,8 +454,9 @@ export const Prague2022 = () => (
               nutellom, s vrhnjem i nutellom te s jagodama i sladoledom. Najviše
               nam se svidio s nutellom. Cijene se kreću od 80 kruna nadalje,
               ovisno o dodacima. Mi smo ga jeli na adventskim štandovima i u
-              nekoliko slastičarnica (Trdlo koji se nalazi blizu Karlovog mosta
-              te Old Czech Chimney Cake u Karlovoj ulici 25).
+              nekoliko slastičarnica (<strong>Trdlo</strong> koji se nalazi
+              blizu Karlovog mosta te <strong>Old Czech Chimney Cake</strong> u
+              Karlovoj ulici 25).
             </p>
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
@@ -486,9 +491,9 @@ export const Prague2022 = () => (
           <span>
             <p className="w-full break-words pb-4 text-justify indent-6 text-lg leading-8 md:text-xl md:leading-9 2xl:leading-9 3xl:text-2xl 3xl:leading-relaxed">
               Ako tražite nešto jeftinija mjesta za jelo, preporučam vam
-              restoran/menzu Jidelna Svetozor gdje većinom jedu lokalci. Mi smo
-              ga htjeli posjetiti, ali nažalost rade od 10 do 15 pa nismo
-              stigli.
+              restoran/menzu <strong>Jidelna Svetozor</strong> gdje većinom jedu
+              lokalci. Mi smo ga htjeli posjetiti, ali nažalost rade od 10 do 15
+              pa nismo stigli.
             </p>
           </span>
         </div>
@@ -506,16 +511,20 @@ export const Prague2022 = () => (
                 Praški dvorac
               </h3>
               <p className="w-full break-words pb-4 text-justify indent-6 text-lg leading-8 md:text-xl md:leading-9 2xl:leading-9 3xl:text-2xl 3xl:leading-relaxed">
-                Na brdu iznad starog grada Praga nalazi se Hradčany, odnosno
-                kompleks Praškog dvorca koji gleda na rijeku Vltavu. Do 1784.
-                godine bio je samostalan grad, a kasnije postaje dio Praga te se
-                danas tamo nalazi sjedište češkog predsjednika. U ovom kompleksu
-                nalaze se brojne turističke atrakcije Praga, od kojih se ulaz u
-                neke plaća (npr. Zlatna ulica), a ulaz u neke je besplatan.
-                Najatraktivnija znamenitost je gotička katedrala sv. Vida, a
-                značajne su i već spomenuta Zlatna ulica, bazilika i samostan
-                sv. Jurja, predsjednička palača, plača Lobkowicz… Ako želite
-                vidjeti smjenu straže morate doći u 12:00 ispred gradskih vrata.
+                Na brdu iznad starog grada Praga nalazi se{" "}
+                <strong>Hradčany</strong>, odnosno kompleks{" "}
+                <strong>Praškog dvorca</strong> koji gleda na rijeku Vltavu. Do
+                1784. godine bio je samostalan grad, a kasnije postaje dio Praga
+                te se danas tamo nalazi sjedište češkog predsjednika. U ovom
+                kompleksu nalaze se brojne turističke atrakcije Praga, od kojih
+                se ulaz u neke plaća (npr. <strong>Zlatna ulica</strong>), a
+                ulaz u neke je besplatan. Najatraktivnija znamenitost je{" "}
+                <strong>gotička katedrala sv. Vida</strong>, a značajne su i već
+                spomenuta Zlatna ulica, <strong>bazilika</strong> i{" "}
+                <strong>samostan sv. Jurja</strong>,{" "}
+                <strong>predsjednička palača</strong>,{" "}
+                <strong>palača Lobkowicz</strong>… Ako želite vidjeti smjenu
+                straže morate doći u 12:00 ispred gradskih vrata.
               </p>
             </span>
             <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
@@ -565,10 +574,12 @@ export const Prague2022 = () => (
               Židovska četvrt
             </h3>
             <p className="w-full break-words pb-4 text-justify indent-6 text-lg leading-8 md:text-xl md:leading-9 2xl:leading-9 3xl:text-2xl 3xl:leading-relaxed">
-              U ovom dijelu grada nekad je živio Franz Kafka i tamo se nalazi
-              njegova zanimljiva skulptura. Uz skulpturu Franza Kafke, u
-              Židovskoj četvrti svakako vrijedi posjetiti Staronovu sinagogu,
-              Španjolsku sinagogu, staro židovsko groblje, te brojne zgrade
+              U ovom dijelu grada nekad je živio <strong>Franz Kafka</strong> i
+              tamo se nalazi njegova zanimljiva skulptura. Uz{" "}
+              <strong>skulpturu Franza Kafke</strong>, u Židovskoj četvrti
+              svakako vrijedi posjetiti <strong>Staronovu sinagogu</strong>,{" "}
+              <strong>Španjolsku sinagogu</strong>,{" "}
+              <strong>staro židovsko groblje</strong>, te brojne zgrade
               ukrašenim kubističkim stilom. Za ulazak u brojne znamenitosti
               možete uzeti zajedničku ulaznicu, dok se ulaznica za Staronovu
               sinagogu kupuje posebno. Više informacija možete pronaći na{" "}
@@ -647,16 +658,16 @@ export const Prague2022 = () => (
               Vaclavski trg
             </h3>
             <p className="w-full break-words pb-4 text-justify indent-6 text-lg leading-8 md:text-xl md:leading-9 2xl:leading-9 3xl:text-2xl 3xl:leading-relaxed">
-              Ili na češkom Vaclavske namesti je živahan trg dug čak 750 metara
-              te širok 60 metara na kojem se odvijaju brojne proslave i
-              prosvjedi. U doba Karla IV. Trg se koristio kao tržnica konja, a
-              danas ovdje možete pronaći razne trgovine, suvenirnice, restorane,
-              hotele, barove… Na samom karaju trga nalazi se Narodni muzej koji
-              je najstariji i najveći češki muzej. Upravo se na ovom trgu,
-              ispred Narodnog muzeja, 1969. godine češki student Jan Palach
-              zapalio u znak protesta Sovjetskom savezu i njihovom režimu koji
-              se protivio liberalizaciji tadašnje Čehoslovačke (Praškom
-              proljeću).
+              Ili na češkom <strong>Vaclavske namesti</strong> je živahan trg
+              dug čak 750 metara te širok 60 metara na kojem se odvijaju brojne
+              proslave i prosvjedi. U doba Karla IV. Trg se koristio kao tržnica
+              konja, a danas ovdje možete pronaći razne trgovine, suvenirnice,
+              restorane, hotele, barove… Na samom karaju trga nalazi se{" "}
+              <strong>Narodni muzej</strong> koji je najstariji i najveći češki
+              muzej. Upravo se na ovom trgu, ispred Narodnog muzeja, 1969.
+              godine češki student Jan Palach zapalio u znak protesta Sovjetskom
+              savezu i njihovom režimu koji se protivio liberalizaciji tadašnje
+              Čehoslovačke (poznatije kao Praško proljeće).
             </p>
           </div>
           <div className="w-full xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
@@ -694,11 +705,13 @@ export const Prague2022 = () => (
             </h3>
             <p className="w-full break-words pb-4 text-justify indent-6 text-lg leading-8 md:text-xl md:leading-9 2xl:leading-9 3xl:text-2xl 3xl:leading-relaxed">
               Najstariji i najznačajniji trg u Pragu, na češkom Staromestske
-              namesti. Na trgu se nalazi Tynska crkva, katedrala svetog Nikole i
-              zgrada stare gradske vijećnice s tornjem visokim 69,5 metara s
-              kojeg se pruža pogled na cijeli Prag. Na zgradi vijećnice nalazi
-              se još jedna zanimljiva atrakcija, a to je Astronomski sat. Trgom
-              inače dominira i spomenik Janu Husu, češkom reformatoru i borcu za
+              namesti. Na trgu se nalazi <strong>Tynska crkva</strong>,{" "}
+              <strong>katedrala svetog Nikole</strong> i{" "}
+              <strong>zgrada stare gradske vijećnice</strong> s tornjem visokim
+              69,5 metara s kojeg se pruža pogled na cijeli Prag. Na zgradi
+              vijećnice nalazi se još jedna zanimljiva atrakcija, a to je{" "}
+              <strong>astronomski sat</strong>. Trgom inače dominira i{" "}
+              <strong>spomenik Janu Husu</strong>, češkom reformatoru i borcu za
               prava češkog naroda. Tijekom adventa trg je pun brojnih štandova s
               tradicionalnim jelima poput trdelnika, kobasica s krumpirom i
               kupusom, gulaša, praške šunke…
@@ -739,10 +752,11 @@ export const Prague2022 = () => (
             </h3>
             <p className="w-full break-words pb-4 text-justify indent-6 text-lg leading-8 md:text-xl md:leading-9 2xl:leading-9 3xl:text-2xl 3xl:leading-relaxed">
               Ova crkva, svojevrsni je simbol Praga koji možete vidjeti na
-              internetu i razglednicama. Ova crkva zove se punim nazivom Crkva
-              Djevice Marije Tynske i sagrađena je u 14. stoljeću u gotičkom
-              stilu. Crkva je visoka 80 metara i ima dva tornja. Ulaz je
-              besplatan, samo na službenim stranicama provjerite radno vrijeme.
+              internetu i razglednicama. Ova crkva zove se punim nazivom{" "}
+              <strong>Crkva Djevice Marije Tynske</strong> i sagrađena je u 14.
+              stoljeću u gotičkom stilu. Crkva je visoka 80 metara i ima dva
+              tornja. Ulaz je besplatan, samo na službenim stranicama provjerite
+              radno vrijeme.
             </p>
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
@@ -781,11 +795,11 @@ export const Prague2022 = () => (
             <p className="w-full break-words pb-4 text-justify indent-6 text-lg leading-8 md:text-xl md:leading-9 2xl:leading-9 3xl:text-2xl 3xl:leading-relaxed">
               Jedna od najljepših atrakcija u povijesnoj jezgri Praga koja se
               sastoji od nekoliko prostorija, podruma te gotičke kapele na kojoj
-              se nalazi Astronomski sat. Danas je vijećnica često mjesto
-              vjenčanja, ali i svojevrsni vidikovac jer se s tornja vijećnice
-              visokog čak 69,5 metara pruža predivan pogled na grad. Ovu
-              vijećnicu posjetile su brojne poznate osobe poput princeze Dijane
-              i princa Charlesa, Toma Cruisea i Andree Bocellija, a
+              se nalazi <strong>astronomski sat</strong>. Danas je vijećnica
+              često mjesto vjenčanja, ali i svojevrsni vidikovac jer se s tornja
+              vijećnice visokog čak 69,5 metara pruža predivan pogled na grad.
+              Ovu vijećnicu posjetile su brojne poznate osobe poput princeze
+              Dijane i princa Charlesa, Toma Cruisea i Andree Bocellija, a
               gradonačelnik Praga i danas ovdje prima posebne goste. Ulaznica u
               kompleks kreće se od 6€ za studente i 10€ za odrasle.
             </p>
@@ -889,7 +903,8 @@ export const Prague2022 = () => (
             <p className="w-full break-words pb-4 text-justify indent-6 text-lg leading-8 md:text-xl md:leading-9 2xl:leading-9 3xl:text-2xl 3xl:leading-relaxed">
               Ova ulica „široka“ je samo 50 centimetara te duga 10 metara, a
               pješački promet njome reguliran je semaforima. Nalazi se u dijelu
-              grada pod nazivom Mala strana, u blizini Karlovog mosta.
+              grada pod nazivom <strong>Mala strana</strong>, u blizini Karlovog
+              mosta.
             </p>
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
@@ -943,15 +958,15 @@ export const Prague2022 = () => (
               Karlov Most
             </h3>
             <p className="w-full break-words pb-4 text-justify indent-6 text-lg leading-8 md:text-xl md:leading-9 2xl:leading-9 3xl:text-2xl 3xl:leading-relaxed">
-              Prvi most koji je sagrađen na rijeci Vltavi koji povezuje dvije
-              strane Praga - stari grad i Praški dvorac. Most je dug 661 metar,
-              a ime je dobio po kralju Karlu IV. Most je zaista predivan u svako
-              doba dana i s njega se pruža prekrasan pogled na dijelove Praga.
-              Na mostu se nalaze brojni kipovi i skulpture od kojih je
-              najzanimljiviji kip svetog Ivana Nepomuka. Naime, ovaj svećenik je
-              nakon što kralju nije htio odati ispovjedne tajne njegove žene bio
-              bačen s Karlovog mosta, a kada mu je tijelo dodirnulo vodu, na
-              površini vode pokazalo se pet zvijezda.
+              Prvi most koji je sagrađen na <strong>rijeci Vltavi</strong> koji
+              povezuje dvije strane Praga - stari grad i Praški dvorac. Most je
+              dug 661 metar, a ime je dobio po kralju Karlu IV. Most je zaista
+              predivan u svako doba dana i s njega se pruža prekrasan pogled na
+              dijelove Praga. Na mostu se nalaze brojni kipovi i skulpture od
+              kojih je najzanimljiviji kip svetog Ivana Nepomuka. Naime, ovaj
+              svećenik je nakon što kralju nije htio odati ispovjedne tajne
+              njegove žene bio bačen s Karlovog mosta, a kada mu je tijelo
+              dodirnulo vodu, na površini vode pokazalo se pet zvijezda.
             </p>
             <p className="w-full break-words pb-4 text-justify indent-6 text-lg leading-8 md:text-xl md:leading-9 2xl:leading-9 3xl:text-2xl 3xl:leading-relaxed">
               Od tada se smatra svecem i zaštitnikom Praga, a ako dodirnete
@@ -1013,7 +1028,8 @@ export const Prague2022 = () => (
               Krtekov dućan. Cijene su dosta visoke, ali možete pronaći olovke,
               kemijske ili magnete do 5€ te plišance s likovima iz Krteka od
               10-tak € nadalje. Nalazi se u ulici blizu glavnog trga; u Google
-              maps samo upišite Hračky v zlateho lva i doći ćete do ovog dućana.
+              maps samo upišite <strong>Hračky v zlateho lva</strong> i doći
+              ćete do ovog dućana.
             </p>
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
@@ -1065,8 +1081,8 @@ export const Prague2022 = () => (
               Svakako odvojite nekoliko sati za šetnju uz obalu rijeke Vltave
               jer je priroda prekrasna u svako doba. Šećući ćete vidjeti
               labudove i patkice, a možete uživati i u nekom od kafića i
-              restorana uz rijeku ili napraviti piknik. Najznačajnija ulica je
-              Naplavka.
+              restorana uz rijeku ili napraviti piknik. Najznačajnija ulica je{" "}
+              <strong>Naplavka</strong>.
             </p>
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-between xl:py-12 3xl:py-24">
@@ -1157,7 +1173,7 @@ export const Prague2022 = () => (
         <div className="xl:w-11/12">
           <div className="flex h-full w-full flex-col items-center justify-center">
             <span>
-              <h3 className="w-full py-12 text-start font-plus-jakarta-sans text-lg italic tracking-wider 2xl:text-xl 3xl:text-2xl">
+              <h3 className="w-full py-12 text-start font-plus-jakarta-sans text-lg font-extrabold italic tracking-wider 2xl:text-xl 3xl:text-2xl">
                 Kutna Hora
               </h3>
               <p className="w-full break-words pb-4 text-justify indent-6 leading-8 md:text-lg md:leading-9 2xl:text-xl 2xl:leading-10">
@@ -1174,8 +1190,11 @@ export const Prague2022 = () => (
                   srebra u 14. stoljeću te je iz tog razloga bila izrazito
                   gospodarski jaka i natjecala se s Pragom za glavni grad Češke.
                   S obzirom na bogatu povijest rudarstva i kovanja srebra, u
-                  Kutnoj Hori možete posjetiti Češki muzej srebra i
-                  srednjovjekovni srebrni rudnik.
+                  Kutnoj Hori možete posjetiti{" "}
+                  <strong>
+                    Češki muzej srebra i srednjovjekovni srebrni rudnik
+                  </strong>
+                  .
                 </p>
                 <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
                   <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
@@ -1218,12 +1237,12 @@ export const Prague2022 = () => (
               </div>
               <div>
                 <p className="w-full break-words pb-4 text-justify indent-6 leading-8 md:text-lg md:leading-9 2xl:text-xl 2xl:leading-10">
-                  Jedna od najznačajnijih znamenitosti ovog grada je svakako
-                  crkva svete Barbare koja je također pod zaštitom UNESCO-a.
-                  Crkva je građena više od 500 godina i pripada gotičkom stilu,
-                  a ime po svetoj Barbari dobila je jer je sveta Barbara
-                  zaštitnica svih rudara. Ulaz u katedralu se plaća 180 kruna za
-                  odrasle i 140 kruna za studente.
+                  Jedna od najznačajnijih znamenitosti ovog grada je svakako{" "}
+                  <strong>crkva svete Barbare</strong> koja je također pod
+                  zaštitom UNESCO-a. Crkva je građena više od 500 godina i
+                  pripada gotičkom stilu, a ime po svetoj Barbari dobila je jer
+                  je sveta Barbara zaštitnica svih rudara. Ulaz u katedralu se
+                  plaća 180 kruna za odrasle i 140 kruna za studente.
                 </p>
                 <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
                   <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
@@ -1272,8 +1291,8 @@ export const Prague2022 = () => (
                   restoranima i kafićima. Mi smo jeli na adventskim štandovima s
                   obzirom na to da je bio vikend i svi kafići i restorani koje
                   smo željeli posjetiti radili su od 11 ili 12 sati. Ako se
-                  nađete u Kutnoj Hori, svakako posjetite kafić / bistro Blues
-                  Cafe.
+                  nađete u Kutnoj Hori, svakako posjetite{" "}
+                  <strong>kafić/bistro Blues Cafe</strong>.
                 </p>
                 <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
                   <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
@@ -1321,14 +1340,14 @@ export const Prague2022 = () => (
         <div className="xl:w-11/12">
           <div className="flex h-full w-full flex-col items-center justify-center">
             <span>
-              <h3 className="w-full py-12 text-start font-plus-jakarta-sans text-lg italic tracking-wider 2xl:text-xl 3xl:text-2xl">
+              <h3 className="w-full py-12 text-start font-plus-jakarta-sans text-lg font-extrabold italic tracking-wider 2xl:text-xl 3xl:text-2xl">
                 Sedlec
               </h3>
               <p className="w-full break-words pb-4 text-justify indent-6 leading-8 md:text-lg md:leading-9 2xl:text-xl 2xl:leading-10">
                 U predgrađu Kutne Hore nalazi se i mjesto Sedlec. U Sedlecu
-                možete posjetiti kapelicu čija je unutrašnjost ukrašena sa
-                40.000 ljudskih kostiju, a nalazi se ispod groblja Crkve Svih
-                Svetih.
+                možete posjetiti <strong>kapelicu</strong> čija je unutrašnjost
+                ukrašena sa 40.000 ljudskih kostiju, a nalazi se ispod{" "}
+                <strong>groblja Crkve Svih Svetih</strong>.
               </p>
               <div>
                 <p className="w-full break-words pb-4 text-justify indent-6 leading-8 md:text-lg md:leading-9 2xl:text-xl 2xl:leading-10">
@@ -1378,14 +1397,14 @@ export const Prague2022 = () => (
               </p>
               <p className="w-full break-words pb-4 text-justify indent-6 leading-8 md:text-lg md:leading-9 2xl:text-xl 2xl:leading-10">
                 Kosturnica je otvorena svaki dan od 9 do 17 sati, a cijena
-                ulaznice za kosturnicu i katedralu u Sedlecu je 120 kruna za
-                studente i 160 kruna za odrasle. Ulaznice možete kupiti online
-                ili u Informativnom centru koji se nalazi u blizini katedrale u
-                Sedlecu. Mi nažalost nismo stigli ući u katedralu jer smo se
-                predugo zadržali u kosturnici. Uz to, tamo možete kupiti i
-                ulaznicu za ove dvije lokacije i katedralu svete Barbare u
-                Kutnoj Hori po cijeni od 320 kruna za odrasle i 250 kruna za
-                studente čime ćete malo uštedjeti.
+                ulaznice za kosturnicu i <strong>katedralu u Sedlecu</strong> je
+                120 kruna za studente i 160 kruna za odrasle. Ulaznice možete
+                kupiti online ili u Informativnom centru koji se nalazi u
+                blizini katedrale u Sedlecu. Mi nažalost nismo stigli ući u
+                katedralu jer smo se predugo zadržali u kosturnici. Uz to, tamo
+                možete kupiti i ulaznicu za ove dvije lokacije i katedralu svete
+                Barbare u Kutnoj Hori po cijeni od 320 kruna za odrasle i 250
+                kruna za studente čime ćete malo uštedjeti.
               </p>
               <div>
                 <p className="w-full break-words pb-4 text-justify indent-6 leading-8 md:text-lg md:leading-9 2xl:text-xl 2xl:leading-10">
@@ -1439,9 +1458,11 @@ export const Prague2022 = () => (
           <div className="flex h-full w-full flex-col items-center justify-center">
             <span>
               <p className="w-full break-words pb-4 text-justify indent-6 leading-8 md:text-lg md:leading-9 2xl:text-xl 2xl:leading-10">
-                Ako ste više dana u Češkoj svakako posjetite i Češki Krumlov,
-                Brno, Karlovy Vary, Plzen te Češke Budejovice koje nam je naš
-                vodič preporučio.
+                Ako ste više dana u Češkoj svakako posjetite i{" "}
+                <strong>Češki Krumlov</strong>, <strong>Brno</strong>,{" "}
+                <strong>Karlovy Vary</strong>, <strong>Plzen</strong> te{" "}
+                <strong>Češke Budejovice</strong> koje nam je naš vodič
+                preporučio.
               </p>
             </span>
           </div>
