@@ -1,14 +1,13 @@
 import React from "react";
-import { useAppContext } from "context/state";
+import { useRouter } from "next/router";
 
 import { Blogs } from "assets/blogs/blogs";
 
 const Content: React.FC = () => {
-  const context = useAppContext();
-  const { activeBlogIdCtx } = context!;
+  const router = useRouter();
+  const { blogId } = router.query;
 
   const showBlogContent = () => {
-    console.log("ID => ", activeBlogIdCtx);
     let BlogContent = () => (
       <div>
         <h2>Error Page!</h2>
@@ -17,15 +16,13 @@ const Content: React.FC = () => {
     let blogContentKey = null;
 
     Blogs.map((value, index) => {
-      if (index === activeBlogIdCtx) {
+      if (blogId !== undefined && index === +blogId) {
         BlogContent = value;
         blogContentKey = index;
-
-        console.log("INDEX => ", index);
       }
     });
 
-    if (BlogContent !== null && blogContentKey !== null)
+    if (BlogContent !== null && blogContentKey !== null && blogId !== undefined)
       return <BlogContent key={blogContentKey} />;
   };
 

@@ -1,18 +1,18 @@
 import React from "react";
 import Image from "next/image";
-import { useAppContext } from "context/state";
+import { useRouter } from "next/router";
 
 import { BlogBanners } from "assets/blogs/blogs";
 
 const Banner: React.FC = () => {
-  const context = useAppContext();
-  const { activeBlogIdCtx } = context!;
+  const router = useRouter();
+  const { blogId } = router.query;
 
   const grabBannerUrl = () => {
     let bannerPath = "";
 
     BlogBanners.map((value, index) => {
-      if (index === +activeBlogIdCtx) {
+      if (blogId !== undefined && index === +blogId) {
         return (bannerPath = value.src);
       }
     });
@@ -23,17 +23,19 @@ const Banner: React.FC = () => {
   return (
     <div className="h-[65vh] w-full">
       <div className="relative h-full w-full">
-        <Image
-          blurDataURL={
-            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
-          }
-          placeholder="blur"
-          className="h-full w-full bg-cover bg-center object-contain md:object-cover"
-          src={grabBannerUrl()}
-          alt=""
-          layout="fill"
-          priority
-        />
+        {blogId !== undefined && (
+          <Image
+            blurDataURL={
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+            }
+            placeholder="blur"
+            className="h-full w-full bg-cover bg-center object-contain md:object-cover"
+            src={grabBannerUrl()}
+            alt=""
+            layout="fill"
+            priority
+          />
+        )}
       </div>
     </div>
   );
