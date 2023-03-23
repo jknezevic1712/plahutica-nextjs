@@ -39,6 +39,7 @@ export const Zagorje2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
             <Image
+              loading="eager"
               blurDataURL={
                 "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
               }
@@ -70,6 +71,7 @@ export const Zagorje2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
             <Image
+              loading="eager"
               blurDataURL={
                 "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
               }
@@ -97,6 +99,7 @@ export const Zagorje2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-between xl:py-12 3xl:py-24">
             <div className="image-container pt-12 pb-4 xl:py-0">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -109,6 +112,7 @@ export const Zagorje2022 = () => (
             </div>
             <div className="image-container pb-12 pt-4 xl:py-0">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -142,6 +146,7 @@ export const Zagorje2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
             <Image
+              loading="eager"
               blurDataURL={
                 "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
               }
@@ -168,6 +173,7 @@ export const Zagorje2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
             <Image
+              loading="eager"
               blurDataURL={
                 "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
               }
@@ -195,6 +201,7 @@ export const Zagorje2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
             <Image
+              loading="eager"
               blurDataURL={
                 "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
               }
@@ -229,6 +236,7 @@ export const Zagorje2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-between xl:py-12 3xl:py-24">
             <div className="image-container pt-12 pb-4 xl:py-0">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -241,6 +249,7 @@ export const Zagorje2022 = () => (
             </div>
             <div className="image-container pb-12 pt-4 xl:py-0">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -275,6 +284,7 @@ export const Zagorje2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-between xl:py-12 3xl:py-24">
             <div className="image-container pt-12 pb-4 xl:py-0">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -287,6 +297,7 @@ export const Zagorje2022 = () => (
             </div>
             <div className="image-container pb-12 pt-4 xl:py-0">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -311,6 +322,7 @@ export const Zagorje2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
             <Image
+              loading="eager"
               blurDataURL={
                 "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
               }
@@ -335,6 +347,7 @@ export const Zagorje2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
             <Image
+              loading="eager"
               blurDataURL={
                 "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
               }
@@ -364,6 +377,7 @@ export const Zagorje2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-between xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:py-0">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -376,6 +390,7 @@ export const Zagorje2022 = () => (
             </div>
             <div className="image-container">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -388,6 +403,7 @@ export const Zagorje2022 = () => (
             </div>
             <div className="image-container py-12 xl:py-0">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -424,6 +440,7 @@ export const Zagorje2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:flex-wrap xl:items-center xl:justify-center xl:py-12 2xl:justify-between 3xl:py-24">
             <div className="image-container image-container-w-half pt-12 pb-8 xl:py-0">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -436,6 +453,7 @@ export const Zagorje2022 = () => (
             </div>
             <div className="image-container image-container-w-half">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -448,6 +466,7 @@ export const Zagorje2022 = () => (
             </div>
             <div className="image-container image-container-w-half pb-12 pt-8 xl:py-0">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -476,6 +495,7 @@ export const Zagorje2022 = () => (
           </span>
           <div className="image-container pt-12 xl:max-w-[35%]">
             <Image
+              loading="eager"
               blurDataURL={
                 "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
               }

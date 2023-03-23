@@ -42,6 +42,7 @@ export const Rim2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
             <Image
+              loading="eager"
               blurDataURL={
                 "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
               }
@@ -68,6 +69,7 @@ export const Rim2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
             <Image
+              loading="eager"
               blurDataURL={
                 "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
               }
@@ -127,6 +129,7 @@ export const Rim2022 = () => (
             </span>
             <div className="image-container py-12 xl:max-w-[40%] 3xl:py-24">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -178,6 +181,7 @@ export const Rim2022 = () => (
         </span>
         <div className="image-container py-12 xl:max-w-[40%] 3xl:py-24">
           <Image
+            loading="eager"
             blurDataURL={
               "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
             }
@@ -233,6 +237,7 @@ export const Rim2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
             <Image
+              loading="eager"
               blurDataURL={
                 "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
               }
@@ -261,6 +266,7 @@ export const Rim2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
             <Image
+              loading="eager"
               blurDataURL={
                 "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
               }
@@ -303,6 +309,7 @@ export const Rim2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
             <Image
+              loading="eager"
               blurDataURL={
                 "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
               }
@@ -365,6 +372,7 @@ export const Rim2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
             <Image
+              loading="eager"
               blurDataURL={
                 "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
               }
@@ -401,6 +409,7 @@ export const Rim2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
             <Image
+              loading="eager"
               blurDataURL={
                 "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
               }
@@ -444,6 +453,7 @@ export const Rim2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -456,6 +466,7 @@ export const Rim2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -495,6 +506,7 @@ export const Rim2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
             <Image
+              loading="eager"
               blurDataURL={
                 "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
               }
@@ -528,6 +540,7 @@ export const Rim2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
             <Image
+              loading="eager"
               blurDataURL={
                 "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
               }
@@ -562,6 +575,7 @@ export const Rim2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -574,6 +588,7 @@ export const Rim2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -614,6 +629,7 @@ export const Rim2022 = () => (
             <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
               <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
                 <Image
+                  loading="eager"
                   blurDataURL={
                     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                   }
@@ -626,6 +642,7 @@ export const Rim2022 = () => (
               </div>
               <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
                 <Image
+                  loading="eager"
                   blurDataURL={
                     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                   }
@@ -669,6 +686,7 @@ export const Rim2022 = () => (
             <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
               <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
                 <Image
+                  loading="eager"
                   blurDataURL={
                     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                   }
@@ -681,6 +699,7 @@ export const Rim2022 = () => (
               </div>
               <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
                 <Image
+                  loading="eager"
                   blurDataURL={
                     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                   }
@@ -710,6 +729,7 @@ export const Rim2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -722,6 +742,7 @@ export const Rim2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -752,6 +773,7 @@ export const Rim2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -764,6 +786,7 @@ export const Rim2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -776,6 +799,7 @@ export const Rim2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -816,6 +840,7 @@ export const Rim2022 = () => (
             <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
                 <Image
+                  loading="eager"
                   blurDataURL={
                     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                   }
@@ -828,6 +853,7 @@ export const Rim2022 = () => (
               </div>
               <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
                 <Image
+                  loading="eager"
                   blurDataURL={
                     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                   }
@@ -840,6 +866,7 @@ export const Rim2022 = () => (
               </div>
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
                 <Image
+                  loading="eager"
                   blurDataURL={
                     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                   }
@@ -869,6 +896,7 @@ export const Rim2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
             <Image
+              loading="eager"
               blurDataURL={
                 "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
               }
@@ -897,6 +925,7 @@ export const Rim2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -909,6 +938,7 @@ export const Rim2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -943,6 +973,7 @@ export const Rim2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -955,6 +986,7 @@ export const Rim2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -987,6 +1019,7 @@ export const Rim2022 = () => (
             <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
                 <Image
+                  loading="eager"
                   blurDataURL={
                     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                   }
@@ -999,6 +1032,7 @@ export const Rim2022 = () => (
               </div>
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
                 <Image
+                  loading="eager"
                   blurDataURL={
                     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                   }
@@ -1034,6 +1068,7 @@ export const Rim2022 = () => (
             <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
                 <Image
+                  loading="eager"
                   blurDataURL={
                     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                   }
@@ -1046,6 +1081,7 @@ export const Rim2022 = () => (
               </div>
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
                 <Image
+                  loading="eager"
                   blurDataURL={
                     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                   }
@@ -1089,6 +1125,7 @@ export const Rim2022 = () => (
             <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
                 <Image
+                  loading="eager"
                   blurDataURL={
                     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                   }
@@ -1101,6 +1138,7 @@ export const Rim2022 = () => (
               </div>
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
                 <Image
+                  loading="eager"
                   blurDataURL={
                     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                   }
@@ -1127,6 +1165,7 @@ export const Rim2022 = () => (
             <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
                 <Image
+                  loading="eager"
                   blurDataURL={
                     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                   }
@@ -1139,6 +1178,7 @@ export const Rim2022 = () => (
               </div>
               <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
                 <Image
+                  loading="eager"
                   blurDataURL={
                     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                   }
@@ -1170,6 +1210,7 @@ export const Rim2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -1182,6 +1223,7 @@ export const Rim2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -1216,6 +1258,7 @@ export const Rim2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -1228,6 +1271,7 @@ export const Rim2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -1240,6 +1284,7 @@ export const Rim2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -1266,6 +1311,7 @@ export const Rim2022 = () => (
           </span>
           <div className="image-container py-12 xl:max-w-[25%] 3xl:py-24">
             <Image
+              loading="eager"
               blurDataURL={
                 "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
               }
@@ -1296,6 +1342,7 @@ export const Rim2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -1308,6 +1355,7 @@ export const Rim2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -1320,6 +1368,7 @@ export const Rim2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[35%] 3xl:py-24">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -1353,6 +1402,7 @@ export const Rim2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -1365,6 +1415,7 @@ export const Rim2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -1399,6 +1450,7 @@ export const Rim2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -1411,6 +1463,7 @@ export const Rim2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -1443,6 +1496,7 @@ export const Rim2022 = () => (
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
@@ -1455,6 +1509,7 @@ export const Rim2022 = () => (
             </div>
             <div className="image-container py-12 xl:max-w-[50%] 3xl:py-24">
               <Image
+                loading="eager"
                 blurDataURL={
                   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                 }
