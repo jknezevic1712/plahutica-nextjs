@@ -458,18 +458,17 @@ export const Prague2022 = () => (
               Trdelnik
             </h3>
             <p className="w-full break-words pb-4 text-justify indent-6 text-lg leading-8 md:text-xl md:leading-9 2xl:leading-9 3xl:text-2xl 3xl:leading-relaxed">
-              Trdelnik je inače rolano tijesto od umočeno u šećer i najčešće
-              cimet koje se peče na valjkovima iznad vatre. Osim cimeta može
-              biti umočen i u kokos, lješnjake, keks, kakao, lješnjake itd; a
-              može se jesti prazan ili s dodacima nutelle, voća, sladoleda,
-              kreme, vrhnja… Mi smo potpuno oduševljeni trdelnikom i zato smo ga
-              svaki dan jeli, ponekad čak i više puta. Isprobali smo prazan, s
-              nutellom, s vrhnjem i nutellom te s jagodama i sladoledom. Najviše
-              nam se svidio s nutellom. Cijene se kreću od 80 kruna nadalje,
-              ovisno o dodacima. Mi smo ga jeli na adventskim štandovima i u
-              nekoliko slastičarnica (<strong>Trdlo</strong> koji se nalazi
-              blizu Karlovog mosta te <strong>Old Czech Chimney Cake</strong> u
-              Karlovoj ulici 25).
+              Trdelnik je inače rolano tijesto umočeno u šećer i najčešće cimet
+              koje se peče na valjcima iznad vatre. Osim cimeta može biti umočen
+              i u kokos, lješnjake, keks, kakao itd; a može se jesti prazan ili
+              s dodacima nutelle, voća, sladoleda, kreme, šlaga… Mi smo potpuno
+              oduševljeni trdelnikom i zato smo ga svaki dan jeli, ponekad čak i
+              više puta. Isprobali smo prazan, s nutellom, s šlagom i nutellom
+              te s jagodama i sladoledom. Najviše nam se svidio s nutellom.
+              Cijene se kreću od 80 kruna nadalje, ovisno o dodacima. Jeli smo
+              ga na adventskim štandovima i u nekoliko slastičarnica (
+              <strong>Trdlo</strong> koji se nalazi blizu Karlovog mosta te{" "}
+              <strong>Old Czech Chimney Cake</strong> u Karlovoj ulici 25).
             </p>
           </span>
           <div className="xl:flex xl:h-full xl:w-full xl:items-center xl:justify-center xl:py-12 3xl:py-24">
