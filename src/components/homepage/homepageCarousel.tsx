@@ -63,7 +63,7 @@ const HomepageCarousel = () => {
                     src={url.src}
                     alt=""
                     layout="fill"
-                    loading="eager"
+                    loading="lazy"
                   />
                 </div>
               </Link>
