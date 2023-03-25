@@ -23,7 +23,7 @@ const ScrollToTopButton = () => {
   }, [visible]);
 
   return (
-    <div className="absolute z-0 h-full w-full">
+    <div className="absolute h-full w-full">
       <div className="sticky top-3/4 z-10 float-right w-fit pr-4">
         <BsFillArrowUpCircleFill
           className={`min-h-[50px] min-w-[50px] cursor-pointer transition-all ${
