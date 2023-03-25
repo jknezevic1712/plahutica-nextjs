@@ -4,13 +4,12 @@ import { BsFillArrowUpCircleFill } from "react-icons/bs";
 const ScrollToTopButton = () => {
   const [visible, setVisible] = useState(false);
 
-  const isButtonVisible = (event: any) => {
-    const screenHeight = event.path[1].screen.height;
-    const scrollValue = event.path[1].scrollY;
+  const isButtonVisible = () => {
+    const scrolled = document.documentElement.scrollTop;
 
-    scrollValue >= screenHeight && !visible
+    scrolled >= 1500 && !visible
       ? setVisible(true)
-      : scrollValue < screenHeight && visible
+      : scrolled < 1500 && visible
       ? setVisible(false)
       : null;
   };
@@ -25,12 +24,12 @@ const ScrollToTopButton = () => {
 
   return (
     <div className="absolute z-0 h-full w-full">
-      <div className="sticky top-1/2 z-10 w-fit pl-4">
+      <div className="sticky top-3/4 z-10 float-right w-fit pr-4">
         <BsFillArrowUpCircleFill
           className={`min-h-[50px] min-w-[50px] cursor-pointer transition-all ${
-            visible ? "opacity-100" : "opacity-0"
+            visible ? "opacity-50 hover:opacity-100" : "opacity-0"
           }`}
-          onClick={() => window.scrollTo(0, 0)}
+          onClick={() => window.scrollTo({ top: 0 })}
         />
       </div>
     </div>

@@ -2,7 +2,7 @@ import { NextPage } from "next";
 
 import backgroundImage from "../../../public/background.jpg";
 
-// import ScrollToTopButton from "components/blog/scrollToTopButton";
+import ScrollToTopButton from "components/blog/scrollToTopButton";
 import Nav from "components/nav/nav";
 import Banner from "components/blog/banner";
 import Content from "components/blog/content";
@@ -16,7 +16,7 @@ const Blog: NextPage = () => {
       }}
     >
       <div className="relative flex h-full w-full flex-wrap items-center justify-center">
-        {/* <ScrollToTopButton /> */}
+        <ScrollToTopButton />
         <Nav />
         <Banner />
         <Content />
