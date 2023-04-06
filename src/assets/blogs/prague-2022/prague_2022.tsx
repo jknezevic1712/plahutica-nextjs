@@ -54,7 +54,7 @@ export const Prague2022 = () => (
               koštalo 970 kuna, a u to su uključeni prijevoz, 3 noćenja s
               doručkom u hotelu u Pragu te pratitelj putovanja. Mi smo uzeli i
               nadoplatu od 95 kuna po osobi kako bismo bili smještani u hotelu u
-              zoni javnog prijevoza. U putovanje su uključeni i posjet Beči i
+              zoni javnog prijevoza. U putovanje su uključeni i posjet Beču i
               Bratislavi koji su zapravo više stanice za odmor pa ako ih želite
               detaljno obići, predlažem vam da odete samostalno. Ja ću se u ovom
               blogu fokusirati na Prag s obzirom da smo u Beču i Bratislavi
@@ -447,7 +447,7 @@ export const Prague2022 = () => (
             tako da vam preporučam da dođete odmah u 9 ujutro kada se otvara
             kako biste izbjegli gužve. Cijene su nešto više od standardnih
             cijena u Pragu i po recenzijama ni osoblje nije baš preljubazno, ali
-            ako želite lijepi fotografiju s nekim od glavnih znamenitosti Praga
+            ako želite lijepu fotografiju s nekim od glavnih znamenitosti Praga
             svakako preporučam posjetu.
           </p>
         </div>
@@ -596,10 +596,10 @@ export const Prague2022 = () => (
               <strong>skulpturu Franza Kafke</strong>, u Židovskoj četvrti
               svakako vrijedi posjetiti <strong>Staronovu sinagogu</strong>,{" "}
               <strong>Španjolsku sinagogu</strong>,{" "}
-              <strong>staro židovsko groblje</strong>, te brojne zgrade
-              ukrašenim kubističkim stilom. Za ulazak u brojne znamenitosti
-              možete uzeti zajedničku ulaznicu, dok se ulaznica za Staronovu
-              sinagogu kupuje posebno. Više informacija možete pronaći na{" "}
+              <strong>staro židovsko groblje</strong>, te brojne zgrade ukrašene
+              kubističkim stilom. Za ulazak u brojne znamenitosti možete uzeti
+              zajedničku ulaznicu, dok se ulaznica za Staronovu sinagogu kupuje
+              posebno. Više informacija možete pronaći na{" "}
               <a
                 className="text-blue-600 underline visited:text-purple-600 hover:text-blue-800"
                 href="https://www.jewishmuseum.cz/en/info/visit/admission/"
@@ -776,7 +776,7 @@ export const Prague2022 = () => (
             </h3>
             <p className="w-full break-words pb-4 text-justify indent-6 text-lg leading-8 md:text-xl md:leading-9 2xl:leading-9 3xl:text-2xl 3xl:leading-relaxed">
               Ova crkva, svojevrsni je simbol Praga koji možete vidjeti na
-              internetu i razglednicama. Ova crkva zove se punim nazivom{" "}
+              internetu i razglednicama. Njen pun naziv je{" "}
               <strong>Crkva Djevice Marije Tynske</strong> i sagrađena je u 14.
               stoljeću u gotičkom stilu. Crkva je visoka 80 metara i ima dva
               tornja. Ulaz je besplatan, samo na službenim stranicama provjerite
