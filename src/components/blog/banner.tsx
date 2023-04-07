@@ -21,7 +21,7 @@ const Banner: React.FC = () => {
   };
 
   return (
-    <div className="h-[65vh] w-full">
+    <div className="z-10 h-[65vh] w-full">
       <div className="relative h-full w-full">
         {blogId !== undefined && (
           <Image

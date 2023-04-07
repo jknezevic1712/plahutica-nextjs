@@ -11,7 +11,7 @@ export const Prague2022_Overview: BlogOverview = {
 };
 
 export const Prague2022 = () => (
-  <div className="h-full w-[85%]">
+  <div className="z-10 h-full w-[85%]">
     <div className="h-fit w-full py-10">
       <div className="flex h-full w-full flex-col items-center text-justify leading-6">
         <h2 className="pb-12 text-center font-plus-jakarta-sans text-3xl italic tracking-wider text-emerald-600 md:py-24 md:text-4xl 2xl:text-5xl 3xl:text-6xl">

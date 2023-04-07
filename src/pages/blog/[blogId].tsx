@@ -6,6 +6,7 @@ import ScrollToTopButton from "components/blog/scrollToTopButton";
 import Nav from "components/nav/nav";
 import Banner from "components/blog/banner";
 import Content from "components/blog/content";
+import Feedback from "components/feedback/feedback";
 
 const Blog: NextPage = () => {
   return (
@@ -20,6 +21,7 @@ const Blog: NextPage = () => {
         <Nav />
         <Banner />
         <Content />
+        <Feedback />
       </div>
     </div>
   );

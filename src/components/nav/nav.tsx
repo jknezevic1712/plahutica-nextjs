@@ -7,10 +7,8 @@ import AboutIcon from "components/aboutIcon/aboutIcon";
 const Nav: React.FC<NavProps> = ({ homepageView }) => {
   return (
     <div
-      className={`z-10 flex h-full w-full items-center border-b-2 border-transparent py-4 px-4 text-center transition-all lg:px-12 lg:hover:border-neutral-700 ${
-        homepageView
-          ? "bg-neutral-700 bg-opacity-75 lg:hover:bg-opacity-90"
-          : ""
+      className={`z-10 flex h-full w-full items-center border-b-2 border-transparent py-4 px-4 text-center transition-all lg:px-12 lg:hover:border-stone-800 ${
+        homepageView ? "bg-stone-800 bg-opacity-75 lg:hover:bg-opacity-90" : ""
       }`}
     >
       <div className="flex w-1/4 items-center justify-start">

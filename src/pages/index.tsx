@@ -40,7 +40,7 @@ const Home: NextPage = () => {
       </Head>
 
       <div
-        className="relative mx-auto flex h-full min-h-screen w-full flex-wrap justify-center bg-cover bg-center bg-no-repeat text-neutral-50 transition-all before:absolute before:top-0 before:left-0 before:z-0 before:h-full before:w-full before:bg-black before:bg-opacity-10"
+        className="relative mx-auto flex h-full min-h-screen w-full flex-wrap justify-center bg-cover bg-center bg-no-repeat text-stone-50 transition-all before:absolute before:top-0 before:left-0 before:z-0 before:h-full before:w-full before:bg-black before:bg-opacity-10"
         style={{
           backgroundImage: `url(${carouselImagesArray[activeBlogIdCtx]?.src})`,
         }}
