@@ -23,7 +23,7 @@ const Home: NextPage = () => {
           name="keywords"
           content="jednodnevni izlet iz Zagreba, Zagorje, Istra, što posjetiti u Istri, Pula, Rim putovanje, Prag putovanje"
         />
-        <meta name="description" content="Plahutica blog stranica" />
+        <meta name="description" content="Savjeti za budget putovanja!" />
         <meta name="author" content="Jakov Knežević & Ema Belošević" />
         <link rel="canonical" href="https://plahutica.vercel.app/" />
         <meta
@@ -34,12 +34,18 @@ const Home: NextPage = () => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Plahutica blog" />
-        <meta property="og:description" content="Plahutica blog stranica" />
+        <meta
+          property="og:description"
+          content="Savjeti za budget putovanja!"
+        />
         <meta property="og:image" content="/background.jpg" />
         <meta property="og:url" content="https://plahutica.vercel.app/" />
         <meta property="og:site_name" content="Plahutica blog" />
         <meta name="twitter:title" content="Plahutica blog" />
-        <meta name="twitter:description" content="Plahutica blog stranica" />
+        <meta
+          name="twitter:description"
+          content="Savjeti za budget putovanja!"
+        />
         <meta name="twitter:image" content="/background.jpg" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
