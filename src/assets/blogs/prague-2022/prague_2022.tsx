@@ -7,7 +7,7 @@ import images from "./images/images";
 
 export const Prague2022_Overview: BlogOverview = {
   title: "Prag",
-  description: "Doživljaji s najdražeg putovanja do sada",
+  description: "Zašto mi je Prag najdraže putovanje do sada?",
 };
 
 export const Prague2022 = () => (

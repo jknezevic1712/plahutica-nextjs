@@ -7,7 +7,7 @@ import images from "./images/images";
 
 export const IstriaRoadTrip2022_Overview: BlogOverview = {
   title: "Istra",
-  description: "Mjesta i aktivnosti u Istri koje svakako vrijedi doživjeti!",
+  description: "Mjesta i aktivnosti u Istri koje nikako ne smijete propustiti!",
 };
 
 export const IstriaRoadTrip2022 = () => (
