@@ -812,7 +812,7 @@ export const IstriaRoadTrip2022 = () => (
         <div className="xl:w-11/12">
           <div className="flex h-full w-full flex-col items-center justify-center xl:flex-row xl:justify-between">
             <span className="xl:w-1/2">
-              <h3 className="w-full py-12 text-start font-plus-jakarta-sans text-lg italic tracking-wider 2xl:text-xl 3xl:text-2xl">
+              <h3 className="w-full py-12 text-start font-plus-jakarta-sans text-lg font-bold italic tracking-wider lg:text-xl xl:text-2xl">
                 Labin
               </h3>
               <p className="w-full break-words pb-4 text-justify indent-6 leading-8 md:text-lg md:leading-9 2xl:text-xl 2xl:leading-10">
@@ -1170,7 +1170,7 @@ export const IstriaRoadTrip2022 = () => (
         <div className="xl:w-11/12">
           <div className="flex h-full w-full flex-col items-center justify-center">
             <span>
-              <h3 className="w-full py-12 text-start font-plus-jakarta-sans text-lg italic tracking-wider 2xl:text-xl 3xl:text-2xl">
+              <h3 className="w-full py-12 text-start font-plus-jakarta-sans text-lg font-bold italic tracking-wider lg:text-xl xl:text-2xl">
                 Rt Kamenjak - Premantura
               </h3>
               <p className="w-full break-words pb-4 text-justify indent-6 leading-8 md:text-lg md:leading-9 2xl:text-xl 2xl:leading-10">
@@ -1522,7 +1522,7 @@ export const IstriaRoadTrip2022 = () => (
         <div className="xl:w-11/12">
           <div className="flex h-full w-full flex-col items-center justify-center">
             <span>
-              <h3 className="w-full py-12 text-start font-plus-jakarta-sans text-lg italic tracking-wider xl:text-xl 3xl:text-2xl">
+              <h3 className="w-full py-12 text-start font-plus-jakarta-sans text-lg font-bold italic tracking-wider lg:text-xl xl:text-2xl">
                 Kožljak - Pijana pruga
               </h3>
               <p className="w-full break-words pb-4 text-justify indent-6 leading-8 md:text-lg md:leading-9 2xl:text-xl 2xl:leading-10">
@@ -1588,7 +1588,7 @@ export const IstriaRoadTrip2022 = () => (
         </div>
 
         <div className="xl:w-11/12">
-          <h3 className="w-full py-12 text-start font-plus-jakarta-sans text-lg italic tracking-wider xl:text-xl 3xl:text-2xl">
+          <h3 className="w-full py-12 text-start font-plus-jakarta-sans text-lg font-bold italic tracking-wider lg:text-xl xl:text-2xl">
             Izlet kajacima - Galebove stijene, špilja Galebijana, kanjon Muzil
           </h3>
           <div className="flex h-full w-full flex-col items-center justify-center xl:flex-row xl:justify-between">

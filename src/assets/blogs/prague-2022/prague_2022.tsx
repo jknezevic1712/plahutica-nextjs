@@ -239,7 +239,7 @@ export const Prague2022 = () => (
               Mali autentičan češki restoran s tradicionalnim jelima. Mi smo za
               predjelo uzeli kobasicu uz koju dobijete njihovu tradicionalnu
               salatu koja je jedna od najfinijih salata koje sam probala te hren
-              i senf. Cijena je bila 135 kruna/ 5.65€. Za glavno jelo uzeli smo
+              i senf. Cijena je bila 135 kruna/5.65€. Za glavno jelo uzeli smo
               svinjsku koljenicu koju služe uz vrlo slične dodatke koje služe i
               s kobasicom, a košta 300 kruna/12,5€ te goveđi gulaš s
               okruglicama/šniticama od kruha i krumpira za 250 kruna/10,45€. Uz
@@ -961,7 +961,7 @@ export const Prague2022 = () => (
               Nalaze se u dijelu grada pod nazivom Mala Strana. Kafkin muzej
               opisuje život i djelo Fraza Kafke, a ulaznica je 260 kruna za
               odrasle i 170 kruna za studente. Skulpture koje mokre po Češkoj
-              nalaze se ispred muzeja, izradio ih je David Černy , a zanimljive
+              nalaze se ispred muzeja, izradio ih je David Černy, a zanimljive
               su jer predstavljaju dva muškarca koji mogu pomicati kukove te
               mokriti po obliku Češke. Osim toga, figure su programirane tako da
               mlazom vode mogu pisati češke književne citate i svoje ime, a i
@@ -1215,7 +1215,7 @@ export const Prague2022 = () => (
         <div className="xl:w-11/12">
           <div className="flex h-full w-full flex-col items-center justify-center">
             <span>
-              <h3 className="w-full py-12 text-start font-plus-jakarta-sans text-lg font-extrabold italic tracking-wider 2xl:text-xl 3xl:text-2xl">
+              <h3 className="w-full py-12 text-start font-plus-jakarta-sans text-lg font-bold italic tracking-wider lg:text-xl xl:text-2xl">
                 Kutna Hora
               </h3>
               <p className="w-full break-words pb-4 text-justify indent-6 leading-8 md:text-lg md:leading-9 2xl:text-xl 2xl:leading-10">
@@ -1391,7 +1391,7 @@ export const Prague2022 = () => (
         <div className="xl:w-11/12">
           <div className="flex h-full w-full flex-col items-center justify-center">
             <span>
-              <h3 className="w-full py-12 text-start font-plus-jakarta-sans text-lg font-extrabold italic tracking-wider 2xl:text-xl 3xl:text-2xl">
+              <h3 className="w-full py-12 text-start font-plus-jakarta-sans text-lg font-bold italic tracking-wider lg:text-xl xl:text-2xl">
                 Sedlec
               </h3>
               <p className="w-full break-words pb-4 text-justify indent-6 leading-8 md:text-lg md:leading-9 2xl:text-xl 2xl:leading-10">
