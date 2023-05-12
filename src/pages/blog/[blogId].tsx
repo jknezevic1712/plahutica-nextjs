@@ -12,9 +12,6 @@ import Feedback from "components/feedback/feedback";
 
 import { BlogsOverviews } from "assets/blogs/blogs";
 
-/* 
-TODO: Url treba bit npr. rim-putovanje i onda trebas to stavit u meta description tag ili negdje tako da prikazuje na googleu to putovanje
-*/
 const Blog: NextPage = () => {
   const context = useAppContext();
   const { activeBlogIdCtx } = context!;
